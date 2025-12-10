@@ -101,4 +101,4 @@ def process_match(video_path, output_path):
     print(f"Aksiyon filtreleme tamamlandı. Toplam {frame_count} kareden {action_frames} aksiyon karesi kaydedildi.")
     print(f"Filtrelenmiş video: {output_path}")
     
-    return output_path
+    return output_path, corners
