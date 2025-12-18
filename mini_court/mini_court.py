@@ -266,7 +266,7 @@ class MiniCourt():
                                                                             closest_key_point, 
                                                                             closest_key_point_index, 
                                                                             max_player_height_in_pixels,
-                                                                            player_heights[player_id]
+                                                                            player_heights.get(player_id, constants.PLAYER_1_HEIGHT_METERS)
                                                                             )
                 
                 output_player_bboxes_dict[player_id] = mini_court_player_position
@@ -281,7 +281,7 @@ class MiniCourt():
                                                                             closest_key_point, 
                                                                             closest_key_point_index, 
                                                                             max_player_height_in_pixels,
-                                                                            player_heights[player_id]
+                                                                            player_heights.get(player_id, constants.PLAYER_1_HEIGHT_METERS)
                                                                             )
                     output_ball_boxes.append({1:mini_court_player_position})
                     last_ball_owner = closest_player_id_to_ball

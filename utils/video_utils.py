@@ -20,7 +20,7 @@ def read_video(video_path):
 
 def save_video(output_video_frames, output_video_path, fps):
     # YENİ: Artık dışarıdan gelen 'fps' değerini kullanıyoruz (24 yerine)
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    fourcc = cv2.VideoWriter_fourcc(*'avc1')
     
     out = cv2.VideoWriter(output_video_path, fourcc, fps, 
                           (output_video_frames[0].shape[1], output_video_frames[0].shape[0]))

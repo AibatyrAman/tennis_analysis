@@ -1,14 +1,16 @@
 from ultralytics import YOLO 
 import cv2
 import pickle
+import numpy as np
 import pandas as pd
+from utils.device_utils import get_best_device
 
 class BallTracker:
     def __init__(self,model_path):
         self.model = YOLO(model_path)
 
     def interpolate_ball_positions(self, ball_positions):
-        ball_positions = [x.get(1,[]) for x in ball_positions]
+        ball_positions = [x.get(1, [np.nan]*4) for x in ball_positions]
         # convert the list into pandas dataframe
         df_ball_positions = pd.DataFrame(ball_positions,columns=['x1','y1','x2','y2'])
 
@@ -47,7 +49,7 @@ class BallTracker:
                         change_count+=1
             
                 if change_count>minimum_change_frames_for_hit-1:
-                    df_ball_positions['ball_hit'].iloc[i] = 1
+                    df_ball_positions.loc[i, 'ball_hit'] = 1
 
         frame_nums_with_ball_hits = df_ball_positions[df_ball_positions['ball_hit']==1].index.tolist()
 
@@ -72,7 +74,8 @@ class BallTracker:
         return ball_detections
 
     def detect_frame(self,frame):
-        results = self.model.predict(frame,conf=0.15)[0]
+        device = get_best_device()
+        results = self.model.predict(frame,conf=0.15, device=device)[0]
 
         ball_dict = {}
         for box in results.boxes:

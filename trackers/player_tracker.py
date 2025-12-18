@@ -4,6 +4,7 @@ import pickle
 import sys
 sys.path.append('../')
 from utils import get_center_of_bbox, measure_distance
+from utils.device_utils import get_best_device
 
 class PlayerTracker:
     def __init__(self, model_path):
@@ -59,10 +60,8 @@ class PlayerTracker:
         return player_detections
 
     def detect_frame(self, frame):
-        # --- DEĞİŞİKLİK BURADA ---
-        # classes=[0] -> Sadece 'person' sınıfını takip et (0 numaralı sınıf insandır).
-        # device=0    -> Ekran kartını kullan.
-        results = self.model.track(frame, persist=True, classes=[0], device=0)[0]
+        device = get_best_device()
+        results = self.model.track(frame, persist=True, classes=[0], device=device)[0]
         
         id_name_dict = results.names
         player_dict = {}
