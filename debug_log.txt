@@ -1,0 +1,1379 @@
+Frame 0: Player BBoxes count: 2
+  Player 1: Foot (1063, 785.2083129882812), ClosestKP Idx 2, MiniPos (2225999, 43786)
+  Player 2: Foot (755, 237.9435272216797), ClosestKP Idx 0, MiniPos (116309, -8399)
+Frame 1: Player BBoxes count: 2
+  Player 1: Foot (1065, 784.086181640625), ClosestKP Idx 2, MiniPos (2232000, 40419)
+  Player 2: Foot (758, 237.88156127929688), ClosestKP Idx 0, MiniPos (119404, -8463)
+Frame 2: Player BBoxes count: 2
+  Player 1: Foot (1067, 782.1090698242188), ClosestKP Idx 2, MiniPos (2238001, 34486)
+  Player 2: Foot (760, 238.12832641601562), ClosestKP Idx 0, MiniPos (121468, -8208)
+Frame 3: Player BBoxes count: 2
+  Player 1: Foot (1069, 780.1531982421875), ClosestKP Idx 2, MiniPos (2244002, 28618)
+  Player 2: Foot (760, 238.61663818359375), ClosestKP Idx 0, MiniPos (121468, -7705)
+Frame 4: Player BBoxes count: 2
+  Player 1: Foot (1069, 779.3742065429688), ClosestKP Idx 2, MiniPos (2244002, 26280)
+  Player 2: Foot (761, 240.0901336669922), ClosestKP Idx 0, MiniPos (122500, -6184)
+Frame 5: Player BBoxes count: 2
+  Player 1: Foot (1070, 778.6592407226562), ClosestKP Idx 2, MiniPos (2247002, 24135)
+  Player 2: Foot (761, 241.32656860351562), ClosestKP Idx 0, MiniPos (122500, -4908)
+Frame 6: Player BBoxes count: 2
+  Player 1: Foot (1070, 778.3566284179688), ClosestKP Idx 2, MiniPos (2247002, 23227)
+  Player 2: Foot (762, 241.57586669921875), ClosestKP Idx 0, MiniPos (123532, -4651)
+Frame 7: Player BBoxes count: 2
+  Player 1: Foot (1070, 778.7037353515625), ClosestKP Idx 2, MiniPos (2247002, 24268)
+  Player 2: Foot (762, 242.09024047851562), ClosestKP Idx 0, MiniPos (123532, -4120)
+Frame 8: Player BBoxes count: 2
+  Player 1: Foot (1069, 778.7543334960938), ClosestKP Idx 2, MiniPos (2244002, 24420)
+  Player 2: Foot (762, 242.36224365234375), ClosestKP Idx 0, MiniPos (123532, -3840)
+Frame 9: Player BBoxes count: 2
+  Player 1: Foot (1069, 778.891845703125), ClosestKP Idx 2, MiniPos (2244002, 24833)
+  Player 2: Foot (761, 242.4927978515625), ClosestKP Idx 0, MiniPos (122500, -3705)
+Frame 10: Player BBoxes count: 2
+  Player 1: Foot (1068, 778.860107421875), ClosestKP Idx 2, MiniPos (2241001, 24738)
+  Player 2: Foot (761, 242.52008056640625), ClosestKP Idx 0, MiniPos (123195, -3698)
+Frame 11: Player BBoxes count: 2
+  Player 1: Foot (1068, 778.6629028320312), ClosestKP Idx 2, MiniPos (2241001, 24146)
+  Player 2: Foot (761, 242.5388946533203), ClosestKP Idx 0, MiniPos (123342, -3683)
+Frame 12: Player BBoxes count: 2
+  Player 1: Foot (1067, 778.8390502929688), ClosestKP Idx 2, MiniPos (2238001, 24675)
+  Player 2: Foot (761, 242.5624237060547), ClosestKP Idx 0, MiniPos (123626, -3667)
+Frame 13: Player BBoxes count: 2
+  Player 1: Foot (1066, 779.12255859375), ClosestKP Idx 2, MiniPos (2235000, 25525)
+  Player 2: Foot (760, 242.55209350585938), ClosestKP Idx 0, MiniPos (123116, -3695)
+Frame 14: Player BBoxes count: 2
+  Player 1: Foot (1065, 779.27001953125), ClosestKP Idx 2, MiniPos (2232000, 25968)
+  Player 2: Foot (760, 242.56185913085938), ClosestKP Idx 0, MiniPos (123366, -3692)
+Frame 15: Player BBoxes count: 2
+  Player 1: Foot (1064, 779.1817016601562), ClosestKP Idx 2, MiniPos (2228999, 25703)
+  Player 2: Foot (759, 242.4427490234375), ClosestKP Idx 0, MiniPos (122318, -3817)
+Frame 16: Player BBoxes count: 2
+  Player 1: Foot (1064, 778.7831420898438), ClosestKP Idx 2, MiniPos (2228999, 24507)
+  Player 2: Foot (759, 242.31375122070312), ClosestKP Idx 0, MiniPos (122318, -3952)
+Frame 17: Player BBoxes count: 2
+  Player 1: Foot (1064, 778.7199096679688), ClosestKP Idx 2, MiniPos (2228999, 24317)
+  Player 2: Foot (759, 242.1485595703125), ClosestKP Idx 0, MiniPos (122318, -4125)
+Frame 18: Player BBoxes count: 2
+  Player 1: Foot (1067, 777.0919189453125), ClosestKP Idx 2, MiniPos (2238001, 19432)
+  Player 2: Foot (758, 241.97024536132812), ClosestKP Idx 0, MiniPos (121269, -4312)
+Frame 19: Player BBoxes count: 2
+  Player 1: Foot (1068, 768.0902709960938), ClosestKP Idx 2, MiniPos (2241001, -7577)
+  Player 2: Foot (758, 242.1367950439453), ClosestKP Idx 0, MiniPos (121269, -4138)
+Frame 20: Player BBoxes count: 2
+  Player 1: Foot (1069, 764.1768798828125), ClosestKP Idx 2, MiniPos (2244002, -19319)
+  Player 2: Foot (757, 242.2636260986328), ClosestKP Idx 0, MiniPos (120221, -4005)
+Frame 21: Player BBoxes count: 2
+  Player 1: Foot (1070, 759.9808349609375), ClosestKP Idx 2, MiniPos (2247002, -31909)
+  Player 2: Foot (756, 242.1957244873047), ClosestKP Idx 0, MiniPos (119173, -4076)
+Frame 22: Player BBoxes count: 2
+  Player 1: Foot (1071, 757.2432250976562), ClosestKP Idx 2, MiniPos (2250003, -40124)
+  Player 2: Foot (756, 242.17396545410156), ClosestKP Idx 0, MiniPos (119173, -4099)
+Frame 23: Player BBoxes count: 2
+  Player 1: Foot (1071, 754.0423583984375), ClosestKP Idx 2, MiniPos (2250003, -49728)
+  Player 2: Foot (756, 242.13987731933594), ClosestKP Idx 0, MiniPos (119173, -4135)
+Frame 24: Player BBoxes count: 2
+  Player 1: Foot (1071, 749.8817749023438), ClosestKP Idx 2, MiniPos (2250003, -62212)
+  Player 2: Foot (755, 241.84609985351562), ClosestKP Idx 0, MiniPos (118125, -4442)
+Frame 25: Player BBoxes count: 2
+  Player 1: Foot (1072, 746.8853149414062), ClosestKP Idx 2, MiniPos (2253003, -71203)
+  Player 2: Foot (755, 241.87106323242188), ClosestKP Idx 0, MiniPos (118125, -4416)
+Frame 26: Player BBoxes count: 2
+  Player 1: Foot (1072, 741.2515258789062), ClosestKP Idx 2, MiniPos (2253003, -88107)
+  Player 2: Foot (755, 241.91477966308594), ClosestKP Idx 0, MiniPos (118125, -4370)
+Frame 27: Player BBoxes count: 2
+  Player 1: Foot (1072, 736.3597412109375), ClosestKP Idx 2, MiniPos (2253003, -102785)
+  Player 2: Foot (756, 242.22434997558594), ClosestKP Idx 0, MiniPos (119173, -4046)
+Frame 28: Player BBoxes count: 2
+  Player 1: Foot (1074, 733.3084106445312), ClosestKP Idx 2, MiniPos (2259004, -111941)
+  Player 2: Foot (756, 241.9346466064453), ClosestKP Idx 0, MiniPos (119173, -4350)
+Frame 29: Player BBoxes count: 2
+  Player 1: Foot (1078, 730.532958984375), ClosestKP Idx 2, MiniPos (2271007, -120269)
+  Player 2: Foot (756, 242.04742431640625), ClosestKP Idx 0, MiniPos (119173, -4231)
+Frame 30: Player BBoxes count: 2
+  Player 1: Foot (1078, 729.8763427734375), ClosestKP Idx 2, MiniPos (2271007, -122239)
+  Player 2: Foot (756, 242.31442260742188), ClosestKP Idx 0, MiniPos (119173, -3952)
+Frame 31: Player BBoxes count: 2
+  Player 1: Foot (1081, 729.18212890625), ClosestKP Idx 2, MiniPos (2280008, -124322)
+  Player 2: Foot (756, 243.1393280029297), ClosestKP Idx 0, MiniPos (119173, -3087)
+Frame 32: Player BBoxes count: 2
+  Player 1: Foot (1082, 728.924072265625), ClosestKP Idx 2, MiniPos (2283009, -125096)
+  Player 2: Foot (755, 243.83462524414062), ClosestKP Idx 0, MiniPos (118125, -2358)
+Frame 33: Player BBoxes count: 2
+  Player 1: Foot (1083, 729.2631225585938), ClosestKP Idx 2, MiniPos (2286009, -124079)
+  Player 2: Foot (755, 244.58815002441406), ClosestKP Idx 0, MiniPos (118125, -1568)
+Frame 34: Player BBoxes count: 2
+  Player 1: Foot (1083, 728.9923706054688), ClosestKP Idx 2, MiniPos (2286009, -124891)
+  Player 2: Foot (755, 244.7139892578125), ClosestKP Idx 0, MiniPos (118125, -1436)
+Frame 35: Player BBoxes count: 2
+  Player 1: Foot (1084, 728.302978515625), ClosestKP Idx 2, MiniPos (2289010, -126960)
+  Player 2: Foot (755, 244.63450622558594), ClosestKP Idx 0, MiniPos (118125, -1520)
+Frame 36: Player BBoxes count: 2
+  Player 1: Foot (1085, 726.8927612304688), ClosestKP Idx 2, MiniPos (2292010, -131191)
+  Player 2: Foot (755, 244.62515258789062), ClosestKP Idx 0, MiniPos (118125, -1529)
+Frame 37: Player BBoxes count: 2
+  Player 1: Foot (1085, 723.510009765625), ClosestKP Idx 2, MiniPos (2292010, -141341)
+  Player 2: Foot (754, 244.66299438476562), ClosestKP Idx 0, MiniPos (117077, -1490)
+Frame 38: Player BBoxes count: 2
+  Player 1: Foot (1087, 720.0553588867188), ClosestKP Idx 2, MiniPos (2298011, -151707)
+  Player 2: Foot (754, 244.63352966308594), ClosestKP Idx 0, MiniPos (117077, -1521)
+Frame 39: Player BBoxes count: 2
+  Player 1: Foot (1089, 715.1847534179688), ClosestKP Idx 2, MiniPos (2304013, -166322)
+  Player 2: Foot (754, 244.5262451171875), ClosestKP Idx 0, MiniPos (117077, -1633)
+Frame 40: Player BBoxes count: 2
+  Player 1: Foot (1090, 712.8900756835938), ClosestKP Idx 2, MiniPos (2307013, -173207)
+  Player 2: Foot (754, 244.3957061767578), ClosestKP Idx 0, MiniPos (117077, -1770)
+Frame 41: Player BBoxes count: 2
+  Player 1: Foot (1091, 714.4020385742188), ClosestKP Idx 2, MiniPos (2310014, -168670)
+  Player 2: Foot (754, 244.27615356445312), ClosestKP Idx 0, MiniPos (117077, -1895)
+Frame 42: Player BBoxes count: 2
+  Player 1: Foot (1092, 714.7828369140625), ClosestKP Idx 2, MiniPos (2313014, -167528)
+  Player 2: Foot (755, 243.84963989257812), ClosestKP Idx 0, MiniPos (118125, -2342)
+Frame 43: Player BBoxes count: 2
+  Player 1: Foot (1092, 713.8832397460938), ClosestKP Idx 2, MiniPos (2313014, -170227)
+  Player 2: Foot (755, 243.5529022216797), ClosestKP Idx 0, MiniPos (118125, -2653)
+Frame 44: Player BBoxes count: 2
+  Player 1: Foot (1092, 713.6279296875), ClosestKP Idx 2, MiniPos (2313014, -170993)
+  Player 2: Foot (754, 243.53640747070312), ClosestKP Idx 0, MiniPos (117077, -2671)
+Frame 45: Player BBoxes count: 2
+  Player 1: Foot (1092, 712.9868774414062), ClosestKP Idx 2, MiniPos (2313014, -172917)
+  Player 2: Foot (752, 243.62933349609375), ClosestKP Idx 0, MiniPos (114980, -2573)
+Frame 46: Player BBoxes count: 2
+  Player 1: Foot (1092, 712.9556884765625), ClosestKP Idx 2, MiniPos (2313014, -173010)
+  Player 2: Foot (751, 243.7001190185547), ClosestKP Idx 0, MiniPos (113932, -2499)
+Frame 47: Player BBoxes count: 2
+  Player 1: Foot (1091, 712.848876953125), ClosestKP Idx 2, MiniPos (2287104, -171605)
+  Player 2: Foot (750, 243.7328643798828), ClosestKP Idx 0, MiniPos (112884, -2465)
+Frame 48: Player BBoxes count: 2
+  Player 1: Foot (1091, 712.4590454101562), ClosestKP Idx 2, MiniPos (2201938, -166306)
+  Player 2: Foot (749, 243.73110961914062), ClosestKP Idx 0, MiniPos (111835, -2467)
+Frame 49: Player BBoxes count: 2
+  Player 1: Foot (1090, 712.36181640625), ClosestKP Idx 2, MiniPos (2081220, -157621)
+  Player 2: Foot (749, 243.71194458007812), ClosestKP Idx 0, MiniPos (111835, -2487)
+Frame 50: Player BBoxes count: 2
+  Player 1: Foot (1090, 712.3624877929688), ClosestKP Idx 2, MiniPos (1979078, -149852)
+  Player 2: Foot (752, 243.75958251953125), ClosestKP Idx 0, MiniPos (114980, -2437)
+Frame 51: Player BBoxes count: 2
+  Player 1: Foot (1090, 712.6672973632812), ClosestKP Idx 2, MiniPos (1876999, -141345)
+  Player 2: Foot (751, 243.65667724609375), ClosestKP Idx 0, MiniPos (113932, -2545)
+Frame 52: Player BBoxes count: 2
+  Player 1: Foot (1089, 713.0986938476562), ClosestKP Idx 2, MiniPos (1742898, -130393)
+  Player 2: Foot (749, 243.80538940429688), ClosestKP Idx 0, MiniPos (111835, -2389)
+Frame 53: Player BBoxes count: 2
+  Player 1: Foot (1088, 713.7626953125), ClosestKP Idx 2, MiniPos (1630132, -120664)
+  Player 2: Foot (752, 243.89474487304688), ClosestKP Idx 0, MiniPos (114980, -2295)
+Frame 54: Player BBoxes count: 2
+  Player 1: Foot (1085, 713.822265625), ClosestKP Idx 2, MiniPos (1554101, -115338)
+  Player 2: Foot (749, 243.9559783935547), ClosestKP Idx 0, MiniPos (111835, -2231)
+Frame 55: Player BBoxes count: 2
+  Player 1: Foot (1087, 715.8141479492188), ClosestKP Idx 2, MiniPos (1520976, -108616)
+  Player 2: Foot (750, 244.06178283691406), ClosestKP Idx 0, MiniPos (112884, -2120)
+Frame 56: Player BBoxes count: 2
+  Player 1: Foot (1080, 723.7618408203125), ClosestKP Idx 2, MiniPos (1479450, -91124)
+  Player 2: Foot (752, 244.01901245117188), ClosestKP Idx 0, MiniPos (114980, -2165)
+Frame 57: Player BBoxes count: 2
+  Player 1: Foot (1076, 727.1224365234375), ClosestKP Idx 2, MiniPos (1471346, -84557)
+  Player 2: Foot (751, 243.83236694335938), ClosestKP Idx 0, MiniPos (113932, -2360)
+Frame 58: Player BBoxes count: 2
+  Player 1: Foot (1079, 728.435791015625), ClosestKP Idx 2, MiniPos (1477192, -81998)
+  Player 2: Foot (748, 243.89486694335938), ClosestKP Idx 0, MiniPos (110787, -2295)
+Frame 59: Player BBoxes count: 2
+  Player 1: Foot (1077, 728.8521728515625), ClosestKP Idx 2, MiniPos (1473295, -81187)
+  Player 2: Foot (747, 243.7571258544922), ClosestKP Idx 0, MiniPos (109739, -2439)
+Frame 60: Player BBoxes count: 2
+  Player 1: Foot (1075, 729.0407104492188), ClosestKP Idx 2, MiniPos (1469398, -80820)
+  Player 2: Foot (748, 243.32940673828125), ClosestKP Idx 0, MiniPos (110787, -2888)
+Frame 61: Player BBoxes count: 2
+  Player 1: Foot (1074, 729.228515625), ClosestKP Idx 2, MiniPos (1467450, -80454)
+  Player 2: Foot (751, 243.11593627929688), ClosestKP Idx 0, MiniPos (113932, -3111)
+Frame 62: Player BBoxes count: 2
+  Player 1: Foot (1073, 729.3549194335938), ClosestKP Idx 2, MiniPos (1465501, -80207)
+  Player 2: Foot (750, 243.03855895996094), ClosestKP Idx 0, MiniPos (112884, -3193)
+Frame 63: Player BBoxes count: 2
+  Player 1: Foot (1073, 729.5543212890625), ClosestKP Idx 2, MiniPos (1465501, -79819)
+  Player 2: Foot (751, 243.07089233398438), ClosestKP Idx 0, MiniPos (113932, -3159)
+Frame 64: Player BBoxes count: 2
+  Player 1: Foot (1072, 729.3722534179688), ClosestKP Idx 2, MiniPos (1463553, -80174)
+  Player 2: Foot (752, 242.78591918945312), ClosestKP Idx 0, MiniPos (114980, -3457)
+Frame 65: Player BBoxes count: 2
+  Player 1: Foot (1074, 729.3777465820312), ClosestKP Idx 2, MiniPos (1467450, -80163)
+  Player 2: Foot (752, 242.51846313476562), ClosestKP Idx 0, MiniPos (114980, -3738)
+Frame 66: Player BBoxes count: 2
+  Player 1: Foot (1075, 729.775390625), ClosestKP Idx 2, MiniPos (1469398, -79388)
+  Player 2: Foot (751, 242.5808868408203), ClosestKP Idx 0, MiniPos (113932, -3672)
+Frame 67: Player BBoxes count: 2
+  Player 1: Foot (1077, 732.11962890625), ClosestKP Idx 2, MiniPos (1473295, -74821)
+  Player 2: Foot (751, 242.1518096923828), ClosestKP Idx 0, MiniPos (113932, -4122)
+Frame 68: Player BBoxes count: 2
+  Player 1: Foot (1078, 734.1672973632812), ClosestKP Idx 2, MiniPos (1475243, -70831)
+  Player 2: Foot (750, 241.86236572265625), ClosestKP Idx 0, MiniPos (112884, -4425)
+Frame 69: Player BBoxes count: 2
+  Player 1: Foot (1080, 736.6055908203125), ClosestKP Idx 2, MiniPos (1479140, -66080)
+  Player 2: Foot (748, 242.50741577148438), ClosestKP Idx 0, MiniPos (110787, -3749)
+Frame 70: Player BBoxes count: 2
+  Player 1: Foot (1082, 739.1051635742188), ClosestKP Idx 2, MiniPos (1483037, -61210)
+  Player 2: Foot (748, 245.2503204345703), ClosestKP Idx 0, MiniPos (110787, -874)
+Frame 71: Player BBoxes count: 2
+  Player 1: Foot (1083, 740.7029418945312), ClosestKP Idx 2, MiniPos (1484985, -58097)
+  Player 2: Foot (748, 246.4408721923828), ClosestKP Idx 0, MiniPos (110787, 373)
+Frame 72: Player BBoxes count: 2
+  Player 1: Foot (1084, 743.6348876953125), ClosestKP Idx 2, MiniPos (1486934, -52384)
+  Player 2: Foot (748, 248.03329467773438), ClosestKP Idx 0, MiniPos (110787, 2042)
+Frame 73: Player BBoxes count: 2
+  Player 1: Foot (1084, 745.3902587890625), ClosestKP Idx 2, MiniPos (1494969, -49232)
+  Player 2: Foot (747, 247.5133819580078), ClosestKP Idx 0, MiniPos (109739, 1497)
+Frame 74: Player BBoxes count: 2
+  Player 1: Foot (1083, 747.4507446289062), ClosestKP Idx 2, MiniPos (1526310, -46217)
+  Player 2: Foot (745, 246.82814025878906), ClosestKP Idx 0, MiniPos (107643, 779)
+Frame 75: Player BBoxes count: 2
+  Player 1: Foot (1083, 749.0589599609375), ClosestKP Idx 2, MiniPos (1535863, -43269)
+  Player 2: Foot (744, 245.82403564453125), ClosestKP Idx 0, MiniPos (106594, -273)
+Frame 76: Player BBoxes count: 2
+  Player 1: Foot (1083, 752.45654296875), ClosestKP Idx 2, MiniPos (1535863, -36422)
+  Player 2: Foot (745, 245.27735900878906), ClosestKP Idx 0, MiniPos (107643, -846)
+Frame 77: Player BBoxes count: 2
+  Player 1: Foot (1083, 755.0685424804688), ClosestKP Idx 2, MiniPos (1535863, -31158)
+  Player 2: Foot (744, 244.72035217285156), ClosestKP Idx 0, MiniPos (106594, -1430)
+Frame 78: Player BBoxes count: 2
+  Player 1: Foot (1082, 757.3568115234375), ClosestKP Idx 2, MiniPos (1533848, -26547)
+  Player 2: Foot (744, 244.939208984375), ClosestKP Idx 0, MiniPos (106594, -1200)
+Frame 79: Player BBoxes count: 2
+  Player 1: Foot (1079, 759.0353393554688), ClosestKP Idx 2, MiniPos (1527802, -23164)
+  Player 2: Foot (744, 245.67794799804688), ClosestKP Idx 0, MiniPos (106594, -426)
+Frame 80: Player BBoxes count: 2
+  Player 1: Foot (1076, 760.111328125), ClosestKP Idx 2, MiniPos (1521756, -20996)
+  Player 2: Foot (745, 246.58432006835938), ClosestKP Idx 0, MiniPos (107643, 523)
+Frame 81: Player BBoxes count: 2
+  Player 1: Foot (1074, 761.7203979492188), ClosestKP Idx 2, MiniPos (1517726, -17753)
+  Player 2: Foot (746, 245.91162109375), ClosestKP Idx 0, MiniPos (108691, -181)
+Frame 82: Player BBoxes count: 2
+  Player 1: Foot (1071, 763.8156127929688), ClosestKP Idx 2, MiniPos (1511680, -13531)
+  Player 2: Foot (746, 245.76963806152344), ClosestKP Idx 0, MiniPos (108691, -330)
+Frame 83: Player BBoxes count: 2
+  Player 1: Foot (1068, 764.899169921875), ClosestKP Idx 2, MiniPos (1505635, -11347)
+  Player 2: Foot (747, 245.77781677246094), ClosestKP Idx 0, MiniPos (109739, -321)
+Frame 84: Player BBoxes count: 2
+  Player 1: Foot (1063, 765.345458984375), ClosestKP Idx 2, MiniPos (1495558, -10448)
+  Player 2: Foot (748, 247.32330322265625), ClosestKP Idx 0, MiniPos (110461, 1294)
+Frame 85: Player BBoxes count: 2
+  Player 1: Foot (1057, 765.6165161132812), ClosestKP Idx 2, MiniPos (1547402, -10351)
+  Player 2: Foot (750, 247.54501342773438), ClosestKP Idx 0, MiniPos (112046, 1519)
+Frame 86: Player BBoxes count: 2
+  Player 1: Foot (1051, 765.7186279296875), ClosestKP Idx 2, MiniPos (1534789, -10137)
+  Player 2: Foot (752, 248.4249267578125), ClosestKP Idx 0, MiniPos (113880, 2429)
+Frame 87: Player BBoxes count: 2
+  Player 1: Foot (1043, 766.185302734375), ClosestKP Idx 2, MiniPos (1517972, -9156)
+  Player 2: Foot (754, 248.53794860839844), ClosestKP Idx 0, MiniPos (115956, 2547)
+Frame 88: Player BBoxes count: 2
+  Player 1: Foot (1029, 766.1845703125), ClosestKP Idx 2, MiniPos (1488541, -9157)
+  Player 2: Foot (756, 248.52142333984375), ClosestKP Idx 0, MiniPos (118032, 2530)
+Frame 89: Player BBoxes count: 2
+  Player 1: Foot (1021, 766.074462890625), ClosestKP Idx 2, MiniPos (1471724, -9389)
+  Player 2: Foot (757, 248.28668212890625), ClosestKP Idx 0, MiniPos (119070, 2286)
+Frame 90: Player BBoxes count: 2
+  Player 1: Foot (1016, 765.7803955078125), ClosestKP Idx 2, MiniPos (1461213, -10007)
+  Player 2: Foot (762, 248.01918029785156), ClosestKP Idx 0, MiniPos (124260, 2008)
+Frame 91: Player BBoxes count: 2
+  Player 1: Foot (1012, 765.5408935546875), ClosestKP Idx 2, MiniPos (1452805, -10510)
+  Player 2: Foot (763, 247.33026123046875), ClosestKP Idx 0, MiniPos (124996, 1290)
+Frame 92: Player BBoxes count: 2
+  Player 1: Foot (1008, 765.7158203125), ClosestKP Idx 2, MiniPos (1444396, -10143)
+  Player 2: Foot (767, 247.46221923828125), ClosestKP Idx 0, MiniPos (129138, 1427)
+Frame 93: Player BBoxes count: 2
+  Player 1: Foot (1004, 765.7535400390625), ClosestKP Idx 2, MiniPos (1435987, -10063)
+  Player 2: Foot (771, 246.68499755859375), ClosestKP Idx 0, MiniPos (133280, 622)
+Frame 94: Player BBoxes count: 2
+  Player 1: Foot (999, 765.159912109375), ClosestKP Idx 2, MiniPos (1425477, -11311)
+  Player 2: Foot (778, 245.9530029296875), ClosestKP Idx 0, MiniPos (140528, -135)
+Frame 95: Player BBoxes count: 1
+  Player 1: Foot (994, 765.1255493164062), ClosestKP Idx 2, MiniPos (1414966, -11383)
+Frame 96: Player BBoxes count: 2
+  Player 1: Foot (988, 765.3868408203125), ClosestKP Idx 2, MiniPos (1402353, -10834)
+  Player 2: Foot (791, 245.94647216796875), ClosestKP Idx 0, MiniPos (153990, -142)
+Frame 97: Player BBoxes count: 2
+  Player 1: Foot (979, 765.0819091796875), ClosestKP Idx 2, MiniPos (1383433, -11475)
+  Player 2: Foot (793, 246.0452880859375), ClosestKP Idx 0, MiniPos (156061, -39)
+Frame 98: Player BBoxes count: 2
+  Player 1: Foot (969, 764.8418579101562), ClosestKP Idx 2, MiniPos (1362412, -11980)
+  Player 2: Foot (796, 244.66822814941406), ClosestKP Idx 0, MiniPos (159167, -1465)
+Frame 99: Player BBoxes count: 2
+  Player 1: Foot (959, 770.7520141601562), ClosestKP Idx 2, MiniPos (1341390, 444)
+  Player 2: Foot (800, 247.5419921875), ClosestKP Idx 0, MiniPos (163309, 1509)
+Frame 100: Player BBoxes count: 2
+  Player 1: Foot (951, 777.2980346679688), ClosestKP Idx 2, MiniPos (1340431, 14368)
+  Player 2: Foot (802, 247.90621948242188), ClosestKP Idx 0, MiniPos (165381, 1887)
+Frame 101: Player BBoxes count: 2
+  Player 1: Foot (942, 780.1908569335938), ClosestKP Idx 2, MiniPos (1321285, 20522)
+  Player 2: Foot (807, 246.18138122558594), ClosestKP Idx 0, MiniPos (170558, 101)
+Frame 102: Player BBoxes count: 2
+  Player 1: Foot (935, 781.0794067382812), ClosestKP Idx 2, MiniPos (1306393, 22412)
+  Player 2: Foot (811, 246.15577697753906), ClosestKP Idx 0, MiniPos (174700, 74)
+Frame 103: Player BBoxes count: 2
+  Player 1: Foot (924, 781.0744018554688), ClosestKP Idx 2, MiniPos (1348232, 23516)
+  Player 2: Foot (815, 246.19078063964844), ClosestKP Idx 0, MiniPos (178842, 110)
+Frame 104: Player BBoxes count: 2
+  Player 1: Foot (912, 781.3921508789062), ClosestKP Idx 2, MiniPos (1345276, 24655)
+  Player 2: Foot (820, 248.8874053955078), ClosestKP Idx 0, MiniPos (184020, 2903)
+Frame 105: Player BBoxes count: 2
+  Player 1: Foot (898, 782.02587890625), ClosestKP Idx 2, MiniPos (1313410, 26097)
+  Player 2: Foot (826, 249.8385009765625), ClosestKP Idx 0, MiniPos (190233, 3887)
+Frame 106: Player BBoxes count: 2
+  Player 1: Foot (881, 781.6513671875), ClosestKP Idx 2, MiniPos (1274716, 25245)
+  Player 2: Foot (832, 251.18170166015625), ClosestKP Idx 0, MiniPos (196446, 5278)
+Frame 107: Player BBoxes count: 2
+  Player 1: Foot (866, 782.2368774414062), ClosestKP Idx 2, MiniPos (1240575, 26578)
+  Player 2: Foot (836, 251.80227661132812), ClosestKP Idx 0, MiniPos (200588, 5921)
+Frame 108: Player BBoxes count: 2
+  Player 1: Foot (848, 783.9819946289062), ClosestKP Idx 2, MiniPos (1199605, 30550)
+  Player 2: Foot (840, 252.0518798828125), ClosestKP Idx 0, MiniPos (204730, 6179)
+Frame 109: Player BBoxes count: 2
+  Player 1: Foot (836, 788.0257568359375), ClosestKP Idx 2, MiniPos (1172291, 39754)
+  Player 2: Foot (844, 252.32789611816406), ClosestKP Idx 0, MiniPos (208872, 6465)
+Frame 110: Player BBoxes count: 2
+  Player 1: Foot (827, 789.8785400390625), ClosestKP Idx 2, MiniPos (1151806, 43971)
+  Player 2: Foot (849, 252.31582641601562), ClosestKP Idx 0, MiniPos (214049, 6453)
+Frame 111: Player BBoxes count: 2
+  Player 1: Foot (822, 791.9822387695312), ClosestKP Idx 2, MiniPos (1140425, 48759)
+  Player 2: Foot (854, 252.08502197265625), ClosestKP Idx 0, MiniPos (219227, 6214)
+Frame 112: Player BBoxes count: 2
+  Player 1: Foot (817, 791.6062622070312), ClosestKP Idx 2, MiniPos (1129045, 47903)
+  Player 2: Foot (859, 251.9344024658203), ClosestKP Idx 0, MiniPos (224405, 6058)
+Frame 113: Player BBoxes count: 2
+  Player 1: Foot (812, 790.7500610351562), ClosestKP Idx 2, MiniPos (1117664, 45955)
+  Player 2: Foot (863, 251.3972930908203), ClosestKP Idx 0, MiniPos (228547, 5502)
+Frame 114: Player BBoxes count: 2
+  Player 1: Foot (804, 791.1162109375), ClosestKP Idx 2, MiniPos (1099455, 46788)
+  Player 2: Foot (868, 250.93466186523438), ClosestKP Idx 0, MiniPos (233724, 5023)
+Frame 115: Player BBoxes count: 2
+  Player 1: Foot (795, 791.99365234375), ClosestKP Idx 2, MiniPos (1078970, 48785)
+  Player 2: Foot (871, 250.78955078125), ClosestKP Idx 0, MiniPos (236831, 4872)
+Frame 116: Player BBoxes count: 2
+  Player 1: Foot (785, 790.3915405273438), ClosestKP Idx 2, MiniPos (1074713, 45921)
+  Player 2: Foot (873, 250.75534057617188), ClosestKP Idx 0, MiniPos (238902, 4837)
+Frame 117: Player BBoxes count: 2
+  Player 1: Foot (774, 790.5194702148438), ClosestKP Idx 2, MiniPos (1068582, 47061)
+  Player 2: Foot (875, 249.6356964111328), ClosestKP Idx 0, MiniPos (240973, 3677)
+Frame 118: Player BBoxes count: 2
+  Player 1: Foot (763, 791.8861083984375), ClosestKP Idx 2, MiniPos (1053746, 50816)
+  Player 2: Foot (877, 248.29058837890625), ClosestKP Idx 0, MiniPos (243044, 2285)
+Frame 119: Player BBoxes count: 2
+  Player 1: Foot (751, 795.6776123046875), ClosestKP Idx 2, MiniPos (1031021, 60196)
+  Player 2: Foot (880, 246.97219848632812), ClosestKP Idx 0, MiniPos (246150, 919)
+Frame 120: Player BBoxes count: 2
+  Player 1: Foot (741, 800.526123046875), ClosestKP Idx 2, MiniPos (1011587, 72144)
+  Player 2: Foot (882, 247.588134765625), ClosestKP Idx 0, MiniPos (248221, 1557)
+Frame 121: Player BBoxes count: 2
+  Player 1: Foot (731, 806.56005859375), ClosestKP Idx 2, MiniPos (989782, 86876)
+  Player 2: Foot (884, 247.7728729248047), ClosestKP Idx 0, MiniPos (250292, 1749)
+Frame 122: Player BBoxes count: 2
+  Player 1: Foot (724, 816.1296997070312), ClosestKP Idx 2, MiniPos (972883, 109978)
+  Player 2: Foot (888, 248.1056671142578), ClosestKP Idx 0, MiniPos (254434, 2093)
+Frame 123: Player BBoxes count: 2
+  Player 1: Foot (712, 822.3557739257812), ClosestKP Idx 2, MiniPos (943914, 125009)
+  Player 2: Foot (891, 247.47434997558594), ClosestKP Idx 0, MiniPos (257541, 1439)
+Frame 124: Player BBoxes count: 2
+  Player 1: Foot (701, 826.8212890625), ClosestKP Idx 2, MiniPos (922828, 136597)
+  Player 2: Foot (895, 247.53794860839844), ClosestKP Idx 0, MiniPos (261683, 1505)
+Frame 125: Player BBoxes count: 2
+  Player 1: Foot (692, 828.8711547851562), ClosestKP Idx 2, MiniPos (905630, 142305)
+  Player 2: Foot (899, 243.8879852294922), ClosestKP Idx 0, MiniPos (265825, -2273)
+Frame 126: Player BBoxes count: 2
+  Player 1: Foot (684, 829.4364013671875), ClosestKP Idx 2, MiniPos (892187, 144671)
+  Player 2: Foot (903, 246.0904083251953), ClosestKP Idx 0, MiniPos (269967, 7)
+Frame 127: Player BBoxes count: 2
+  Player 1: Foot (676, 829.588623046875), ClosestKP Idx 2, MiniPos (879736, 146241)
+  Player 2: Foot (907, 245.16783142089844), ClosestKP Idx 0, MiniPos (274109, -948)
+Frame 128: Player BBoxes count: 2
+  Player 1: Foot (670, 829.0415649414062), ClosestKP Idx 2, MiniPos (864866, 144886)
+  Player 2: Foot (910, 243.94517517089844), ClosestKP Idx 0, MiniPos (277216, -2214)
+Frame 129: Player BBoxes count: 2
+  Player 1: Foot (663, 828.7352294921875), ClosestKP Idx 2, MiniPos (847518, 144127)
+  Player 2: Foot (912, 241.5736846923828), ClosestKP Idx 0, MiniPos (279287, -4670)
+Frame 130: Player BBoxes count: 2
+  Player 1: Foot (653, 828.7225341796875), ClosestKP Idx 2, MiniPos (822736, 144095)
+  Player 2: Foot (916, 227.61891174316406), ClosestKP Idx 0, MiniPos (283429, -19120)
+Frame 131: Player BBoxes count: 2
+  Player 1: Foot (643, 828.0587158203125), ClosestKP Idx 2, MiniPos (799109, 142656)
+  Player 2: Foot (918, 221.631591796875), ClosestKP Idx 0, MiniPos (285500, -25320)
+Frame 132: Player BBoxes count: 2
+  Player 1: Foot (634, 828.313720703125), ClosestKP Idx 2, MiniPos (776772, 143289)
+  Player 2: Foot (922, 221.09902954101562), ClosestKP Idx 0, MiniPos (289642, -25872)
+Frame 133: Player BBoxes count: 2
+  Player 1: Foot (623, 828.1336059570312), ClosestKP Idx 2, MiniPos (752605, 143438)
+  Player 2: Foot (926, 222.21450805664062), ClosestKP Idx 0, MiniPos (293784, -24716)
+Frame 134: Player BBoxes count: 2
+  Player 1: Foot (615, 828.1691284179688), ClosestKP Idx 2, MiniPos (732667, 143527)
+  Player 2: Foot (932, 233.27960205078125), ClosestKP Idx 0, MiniPos (299997, -13258)
+Frame 135: Player BBoxes count: 2
+  Player 1: Foot (608, 827.9631958007812), ClosestKP Idx 2, MiniPos (715221, 143013)
+  Player 2: Foot (936, 233.105712890625), ClosestKP Idx 0, MiniPos (304139, -13438)
+Frame 136: Player BBoxes count: 2
+  Player 1: Foot (603, 830.054443359375), ClosestKP Idx 2, MiniPos (702760, 148225)
+  Player 2: Foot (939, 225.03073120117188), ClosestKP Idx 0, MiniPos (307245, -21800)
+Frame 137: Player BBoxes count: 2
+  Player 1: Foot (597, 836.55126953125), ClosestKP Idx 2, MiniPos (687807, 164417)
+  Player 2: Foot (944, 235.1336669921875), ClosestKP Idx 0, MiniPos (312423, -11339)
+Frame 138: Player BBoxes count: 2
+  Player 1: Foot (590, 841.8750610351562), ClosestKP Idx 2, MiniPos (670361, 177685)
+  Player 2: Foot (949, 237.960693359375), ClosestKP Idx 0, MiniPos (317600, -8411)
+Frame 139: Player BBoxes count: 2
+  Player 1: Foot (581, 845.7915649414062), ClosestKP Idx 2, MiniPos (647930, 187446)
+  Player 2: Foot (954, 239.3953094482422), ClosestKP Idx 0, MiniPos (322778, -6926)
+Frame 140: Player BBoxes count: 2
+  Player 1: Foot (571, 849.130126953125), ClosestKP Idx 2, MiniPos (623008, 195767)
+  Player 2: Foot (959, 239.836181640625), ClosestKP Idx 0, MiniPos (327956, -6469)
+Frame 141: Player BBoxes count: 2
+  Player 1: Foot (561, 852.7083129882812), ClosestKP Idx 2, MiniPos (598085, 204685)
+  Player 2: Foot (963, 239.42991638183594), ClosestKP Idx 0, MiniPos (332098, -6890)
+Frame 142: Player BBoxes count: 2
+  Player 1: Foot (552, 856.6370849609375), ClosestKP Idx 2, MiniPos (575655, 214476)
+  Player 2: Foot (967, 239.43930053710938), ClosestKP Idx 0, MiniPos (336240, -6880)
+Frame 143: Player BBoxes count: 2
+  Player 1: Foot (546, 859.2460327148438), ClosestKP Idx 2, MiniPos (560701, 220978)
+  Player 2: Foot (969, 239.41966247558594), ClosestKP Idx 0, MiniPos (338311, -6900)
+Frame 144: Player BBoxes count: 2
+  Player 1: Foot (541, 862.174560546875), ClosestKP Idx 2, MiniPos (548240, 228277)
+  Player 2: Foot (971, 240.35507202148438), ClosestKP Idx 0, MiniPos (340382, -5932)
+Frame 145: Player BBoxes count: 2
+  Player 1: Foot (536, 865.2684326171875), ClosestKP Idx 2, MiniPos (535779, 235988)
+  Player 2: Foot (972, 240.78257751464844), ClosestKP Idx 0, MiniPos (341417, -5489)
+Frame 146: Player BBoxes count: 2
+  Player 1: Foot (532, 868.8934326171875), ClosestKP Idx 2, MiniPos (525810, 245022)
+  Player 2: Foot (972, 241.2178192138672), ClosestKP Idx 0, MiniPos (341417, -5038)
+Frame 147: Player BBoxes count: 2
+  Player 1: Foot (529, 869.9420166015625), ClosestKP Idx 2, MiniPos (518333, 247635)
+  Player 2: Foot (972, 241.0155792236328), ClosestKP Idx 0, MiniPos (340141, -5228)
+Frame 148: Player BBoxes count: 2
+  Player 1: Foot (528, 870.5106811523438), ClosestKP Idx 2, MiniPos (515841, 249053)
+  Player 2: Foot (972, 241.0458221435547), ClosestKP Idx 0, MiniPos (338765, -5175)
+Frame 149: Player BBoxes count: 2
+  Player 1: Foot (525, 870.1681518554688), ClosestKP Idx 2, MiniPos (508364, 248199)
+  Player 2: Foot (973, 240.5927276611328), ClosestKP Idx 0, MiniPos (333138, -5528)
+Frame 150: Player BBoxes count: 2
+  Player 1: Foot (524, 870.2901611328125), ClosestKP Idx 2, MiniPos (505872, 248503)
+  Player 2: Foot (976, 240.45301818847656), ClosestKP Idx 0, MiniPos (321261, -5413)
+Frame 151: Player BBoxes count: 2
+  Player 1: Foot (523, 870.15283203125), ClosestKP Idx 2, MiniPos (503379, 248161)
+  Player 2: Foot (979, 239.31057739257812), ClosestKP Idx 0, MiniPos (325460, -6540)
+Frame 152: Player BBoxes count: 2
+  Player 1: Foot (522, 870.5408935546875), ClosestKP Idx 2, MiniPos (500887, 249128)
+  Player 2: Foot (981, 239.35324096679688), ClosestKP Idx 0, MiniPos (330818, -6567)
+Frame 153: Player BBoxes count: 2
+  Player 1: Foot (522, 870.3311767578125), ClosestKP Idx 2, MiniPos (500887, 248605)
+  Player 2: Foot (985, 239.18421936035156), ClosestKP Idx 0, MiniPos (335575, -6750)
+Frame 154: Player BBoxes count: 2
+  Player 1: Foot (521, 870.1608276367188), ClosestKP Idx 2, MiniPos (498395, 248181)
+  Player 2: Foot (990, 239.8275909423828), ClosestKP Idx 0, MiniPos (340470, -6120)
+Frame 155: Player BBoxes count: 2
+  Player 1: Foot (521, 869.8628540039062), ClosestKP Idx 2, MiniPos (498395, 247438)
+  Player 2: Foot (993, 239.11788940429688), ClosestKP Idx 0, MiniPos (343407, -6815)
+Frame 156: Player BBoxes count: 2
+  Player 1: Foot (522, 870.135986328125), ClosestKP Idx 2, MiniPos (500887, 248119)
+  Player 2: Foot (997, 238.11952209472656), ClosestKP Idx 0, MiniPos (352374, -7907)
+Frame 157: Player BBoxes count: 2
+  Player 1: Foot (522, 870.14111328125), ClosestKP Idx 2, MiniPos (500887, 248132)
+  Player 2: Foot (1000, 239.1241455078125), ClosestKP Idx 0, MiniPos (360867, -7018)
+Frame 158: Player BBoxes count: 2
+  Player 1: Foot (524, 870.5592041015625), ClosestKP Idx 2, MiniPos (505872, 249174)
+  Player 2: Foot (1003, 240.66603088378906), ClosestKP Idx 0, MiniPos (370442, -5563)
+Frame 159: Player BBoxes count: 2
+  Player 1: Foot (525, 869.9885864257812), ClosestKP Idx 2, MiniPos (508364, 247751)
+  Player 2: Foot (1007, 241.6181640625), ClosestKP Idx 0, MiniPos (381236, -4668)
+Frame 160: Player BBoxes count: 2
+  Player 1: Foot (526, 870.3179321289062), ClosestKP Idx 2, MiniPos (510856, 248572)
+  Player 2: Foot (1008, 242.04312133789062), ClosestKP Idx 0, MiniPos (392148, -4335)
+Frame 161: Player BBoxes count: 2
+  Player 1: Foot (528, 869.4094848632812), ClosestKP Idx 2, MiniPos (515841, 246308)
+  Player 2: Foot (1013, 242.27755737304688), ClosestKP Idx 0, MiniPos (401439, -4125)
+Frame 162: Player BBoxes count: 2
+  Player 1: Foot (530, 870.2200317382812), ClosestKP Idx 2, MiniPos (520825, 248328)
+  Player 2: Foot (1014, 242.14463806152344), ClosestKP Idx 0, MiniPos (411513, -4367)
+Frame 163: Player BBoxes count: 2
+  Player 1: Foot (531, 872.4989013671875), ClosestKP Idx 2, MiniPos (523318, 254008)
+  Player 2: Foot (1017, 241.8915557861328), ClosestKP Idx 0, MiniPos (417129, -4673)
+Frame 164: Player BBoxes count: 2
+  Player 1: Foot (533, 876.5535278320312), ClosestKP Idx 2, MiniPos (528302, 264113)
+  Player 2: Foot (1019, 241.73187255859375), ClosestKP Idx 0, MiniPos (424467, -4911)
+Frame 165: Player BBoxes count: 2
+  Player 1: Foot (536, 882.4757690429688), ClosestKP Idx 2, MiniPos (535779, 278873)
+  Player 2: Foot (1021, 240.9120330810547), ClosestKP Idx 0, MiniPos (433758, -5933)
+Frame 166: Player BBoxes count: 2
+  Player 1: Foot (539, 886.872314453125), ClosestKP Idx 2, MiniPos (543256, 289830)
+  Player 2: Foot (1022, 240.54942321777344), ClosestKP Idx 0, MiniPos (434904, -6348)
+Frame 167: Player BBoxes count: 2
+  Player 1: Foot (544, 888.7553100585938), ClosestKP Idx 2, MiniPos (555717, 294523)
+  Player 2: Foot (1024, 240.2201690673828), ClosestKP Idx 0, MiniPos (437195, -6726)
+Frame 168: Player BBoxes count: 2
+  Player 1: Foot (550, 890.2604370117188), ClosestKP Idx 2, MiniPos (570670, 298274)
+  Player 2: Foot (1025, 239.30335998535156), ClosestKP Idx 0, MiniPos (438341, -7776)
+Frame 169: Player BBoxes count: 2
+  Player 1: Foot (557, 891.18505859375), ClosestKP Idx 2, MiniPos (588116, 300578)
+  Player 2: Foot (1027, 238.06417846679688), ClosestKP Idx 0, MiniPos (440633, -9196)
+Frame 170: Player BBoxes count: 2
+  Player 1: Foot (564, 891.6543579101562), ClosestKP Idx 2, MiniPos (605562, 301748)
+  Player 2: Foot (1030, 237.25946044921875), ClosestKP Idx 0, MiniPos (444070, -10118)
+Frame 171: Player BBoxes count: 2
+  Player 1: Foot (573, 891.6944580078125), ClosestKP Idx 2, MiniPos (627992, 301848)
+  Player 2: Foot (1033, 236.32879638671875), ClosestKP Idx 0, MiniPos (447508, -11184)
+Frame 172: Player BBoxes count: 2
+  Player 1: Foot (581, 891.6552124023438), ClosestKP Idx 2, MiniPos (647930, 301750)
+  Player 2: Foot (1035, 235.36219787597656), ClosestKP Idx 0, MiniPos (449799, -12292)
+Frame 173: Player BBoxes count: 2
+  Player 1: Foot (586, 891.913330078125), ClosestKP Idx 2, MiniPos (660392, 302394)
+  Player 2: Foot (1038, 235.17129516601562), ClosestKP Idx 0, MiniPos (453237, -12511)
+Frame 174: Player BBoxes count: 2
+  Player 1: Foot (590, 891.6875), ClosestKP Idx 2, MiniPos (670361, 301831)
+  Player 2: Foot (1040, 234.84262084960938), ClosestKP Idx 0, MiniPos (455528, -12887)
+Frame 175: Player BBoxes count: 2
+  Player 1: Foot (593, 891.3717651367188), ClosestKP Idx 2, MiniPos (677838, 301044)
+  Player 2: Foot (1042, 233.95382690429688), ClosestKP Idx 0, MiniPos (457820, -13906)
+Frame 176: Player BBoxes count: 2
+  Player 1: Foot (598, 891.0082397460938), ClosestKP Idx 2, MiniPos (690299, 300138)
+  Player 2: Foot (1044, 232.4409942626953), ClosestKP Idx 0, MiniPos (460112, -15639)
+Frame 177: Player BBoxes count: 2
+  Player 1: Foot (603, 889.710693359375), ClosestKP Idx 2, MiniPos (702760, 296904)
+  Player 2: Foot (1045, 235.02622985839844), ClosestKP Idx 0, MiniPos (461258, -12677)
+Frame 178: Player BBoxes count: 2
+  Player 1: Foot (609, 886.205322265625), ClosestKP Idx 2, MiniPos (717714, 288168)
+  Player 2: Foot (1048, 235.06109619140625), ClosestKP Idx 0, MiniPos (464695, -12637)
+Frame 179: Player BBoxes count: 2
+  Player 1: Foot (616, 885.9326171875), ClosestKP Idx 2, MiniPos (735159, 287488)
+  Player 2: Foot (1049, 235.0558624267578), ClosestKP Idx 0, MiniPos (465841, -12643)
+Frame 180: Player BBoxes count: 2
+  Player 1: Foot (623, 887.6103515625), ClosestKP Idx 2, MiniPos (752605, 291669)
+  Player 2: Foot (1051, 235.44691467285156), ClosestKP Idx 0, MiniPos (468132, -12195)
+Frame 181: Player BBoxes count: 2
+  Player 1: Foot (632, 886.5531616210938), ClosestKP Idx 2, MiniPos (775036, 289035)
+  Player 2: Foot (1052, 235.36997985839844), ClosestKP Idx 0, MiniPos (469278, -12283)
+Frame 182: Player BBoxes count: 2
+  Player 1: Foot (641, 889.6417236328125), ClosestKP Idx 2, MiniPos (797466, 296732)
+  Player 2: Foot (1052, 234.29165649414062), ClosestKP Idx 0, MiniPos (469278, -13519)
+Frame 183: Player BBoxes count: 2
+  Player 1: Foot (649, 884.1555786132812), ClosestKP Idx 2, MiniPos (817404, 283059)
+  Player 2: Foot (1053, 233.3970489501953), ClosestKP Idx 0, MiniPos (470424, -14544)
+Frame 184: Player BBoxes count: 2
+  Player 1: Foot (654, 883.1165771484375), ClosestKP Idx 2, MiniPos (829865, 280470)
+  Player 2: Foot (1053, 233.4267120361328), ClosestKP Idx 0, MiniPos (470424, -14510)
+Frame 185: Player BBoxes count: 2
+  Player 1: Foot (656, 881.1103515625), ClosestKP Idx 2, MiniPos (834850, 275470)
+  Player 2: Foot (1055, 232.90667724609375), ClosestKP Idx 0, MiniPos (472716, -15106)
+Frame 186: Player BBoxes count: 2
+  Player 1: Foot (661, 879.1107177734375), ClosestKP Idx 2, MiniPos (847311, 270486)
+  Player 2: Foot (1056, 233.82601928710938), ClosestKP Idx 0, MiniPos (473862, -14052)
+Frame 187: Player BBoxes count: 2
+  Player 1: Foot (669, 882.93505859375), ClosestKP Idx 2, MiniPos (867249, 280017)
+  Player 2: Foot (1057, 235.47976684570312), ClosestKP Idx 0, MiniPos (475007, -12157)
+Frame 188: Player BBoxes count: 2
+  Player 1: Foot (681, 883.7845458984375), ClosestKP Idx 2, MiniPos (897156, 282135)
+  Player 2: Foot (1057, 236.09335327148438), ClosestKP Idx 0, MiniPos (475007, -11454)
+Frame 189: Player BBoxes count: 2
+  Player 1: Foot (693, 884.2857666015625), ClosestKP Idx 2, MiniPos (927063, 283384)
+  Player 2: Foot (1059, 235.94277954101562), ClosestKP Idx 0, MiniPos (477299, -11627)
+Frame 190: Player BBoxes count: 2
+  Player 1: Foot (705, 885.5260009765625), ClosestKP Idx 2, MiniPos (956970, 286475)
+  Player 2: Foot (1059, 237.58938598632812), ClosestKP Idx 0, MiniPos (477299, -9740)
+Frame 191: Player BBoxes count: 2
+  Player 1: Foot (717, 885.902099609375), ClosestKP Idx 2, MiniPos (986877, 287412)
+  Player 2: Foot (1060, 238.76638793945312), ClosestKP Idx 0, MiniPos (478445, -8391)
+Frame 192: Player BBoxes count: 2
+  Player 1: Foot (727, 887.454345703125), ClosestKP Idx 2, MiniPos (1011800, 291281)
+  Player 2: Foot (1061, 239.1222686767578), ClosestKP Idx 0, MiniPos (479591, -7984)
+Frame 193: Player BBoxes count: 2
+  Player 1: Foot (735, 887.9758911132812), ClosestKP Idx 2, MiniPos (1031738, 292580)
+  Player 2: Foot (1061, 239.1529541015625), ClosestKP Idx 0, MiniPos (479591, -7949)
+Frame 194: Player BBoxes count: 2
+  Player 1: Foot (741, 888.1375732421875), ClosestKP Idx 2, MiniPos (1046692, 292983)
+  Player 2: Foot (1061, 239.22369384765625), ClosestKP Idx 0, MiniPos (479591, -7867)
+Frame 195: Player BBoxes count: 2
+  Player 1: Foot (745, 889.1932983398438), ClosestKP Idx 2, MiniPos (1056661, 295615)
+  Player 2: Foot (1061, 239.48800659179688), ClosestKP Idx 0, MiniPos (479591, -7565)
+Frame 196: Player BBoxes count: 2
+  Player 1: Foot (747, 889.9845581054688), ClosestKP Idx 2, MiniPos (1061645, 297587)
+  Player 2: Foot (1062, 239.1563262939453), ClosestKP Idx 0, MiniPos (480736, -7945)
+Frame 197: Player BBoxes count: 2
+  Player 1: Foot (748, 890.4744873046875), ClosestKP Idx 2, MiniPos (1064137, 298808)
+  Player 2: Foot (1062, 238.97300720214844), ClosestKP Idx 0, MiniPos (480736, -8155)
+Frame 198: Player BBoxes count: 2
+  Player 1: Foot (748, 890.8450317382812), ClosestKP Idx 2, MiniPos (1064137, 299731)
+  Player 2: Foot (1062, 239.03997802734375), ClosestKP Idx 0, MiniPos (480736, -8078)
+Frame 199: Player BBoxes count: 2
+  Player 1: Foot (749, 890.8167114257812), ClosestKP Idx 2, MiniPos (1066630, 299660)
+  Player 2: Foot (1062, 239.325927734375), ClosestKP Idx 0, MiniPos (480736, -7750)
+Frame 200: Player BBoxes count: 2
+  Player 1: Foot (749, 890.3797607421875), ClosestKP Idx 2, MiniPos (1066630, 298572)
+  Player 2: Foot (1063, 239.389404296875), ClosestKP Idx 0, MiniPos (481882, -7678)
+Frame 201: Player BBoxes count: 2
+  Player 1: Foot (750, 888.9609375), ClosestKP Idx 2, MiniPos (1069122, 295035)
+  Player 2: Foot (1063, 239.83200073242188), ClosestKP Idx 0, MiniPos (481882, -7170)
+Frame 202: Player BBoxes count: 2
+  Player 1: Foot (751, 887.5208740234375), ClosestKP Idx 2, MiniPos (1071614, 291446)
+  Player 2: Foot (1064, 239.48736572265625), ClosestKP Idx 0, MiniPos (483028, -7565)
+Frame 203: Player BBoxes count: 2
+  Player 1: Foot (753, 886.3550415039062), ClosestKP Idx 2, MiniPos (1048364, 280976)
+  Player 2: Foot (1064, 238.1959228515625), ClosestKP Idx 0, MiniPos (483028, -9045)
+Frame 204: Player BBoxes count: 2
+  Player 1: Foot (754, 885.2774658203125), ClosestKP Idx 2, MiniPos (1040132, 275538)
+  Player 2: Foot (1064, 237.02005004882812), ClosestKP Idx 0, MiniPos (483028, -10392)
+Frame 205: Player BBoxes count: 2
+  Player 1: Foot (756, 884.5855712890625), ClosestKP Idx 2, MiniPos (1028501, 269570)
+  Player 2: Foot (1064, 237.5496063232422), ClosestKP Idx 0, MiniPos (483028, -9786)
+Frame 206: Player BBoxes count: 2
+  Player 1: Foot (759, 883.0897216796875), ClosestKP Idx 2, MiniPos (1018612, 261673)
+  Player 2: Foot (1063, 237.6125946044922), ClosestKP Idx 0, MiniPos (481882, -9713)
+Frame 207: Player BBoxes count: 2
+  Player 1: Foot (764, 881.7679443359375), ClosestKP Idx 2, MiniPos (1030240, 258599)
+  Player 2: Foot (1063, 237.78656005859375), ClosestKP Idx 0, MiniPos (481882, -9514)
+Frame 208: Player BBoxes count: 2
+  Player 1: Foot (769, 880.2756958007812), ClosestKP Idx 2, MiniPos (1033953, 253192)
+  Player 2: Foot (1063, 238.10386657714844), ClosestKP Idx 0, MiniPos (481882, -9151)
+Frame 209: Player BBoxes count: 2
+  Player 1: Foot (773, 880.4374389648438), ClosestKP Idx 2, MiniPos (1037940, 252291)
+  Player 2: Foot (1060, 238.5194091796875), ClosestKP Idx 0, MiniPos (478445, -8674)
+Frame 210: Player BBoxes count: 2
+  Player 1: Foot (776, 881.7765502929688), ClosestKP Idx 2, MiniPos (1043063, 254934)
+  Player 2: Foot (1060, 238.8375244140625), ClosestKP Idx 0, MiniPos (478445, -8310)
+Frame 211: Player BBoxes count: 2
+  Player 1: Foot (777, 884.7841186523438), ClosestKP Idx 2, MiniPos (1040290, 260560)
+  Player 2: Foot (1059, 239.1926727294922), ClosestKP Idx 0, MiniPos (477299, -7903)
+Frame 212: Player BBoxes count: 2
+  Player 1: Foot (778, 886.4465942382812), ClosestKP Idx 2, MiniPos (1041725, 264138)
+  Player 2: Foot (1060, 239.2384796142578), ClosestKP Idx 0, MiniPos (478445, -7851)
+Frame 213: Player BBoxes count: 2
+  Player 1: Foot (779, 887.6461181640625), ClosestKP Idx 2, MiniPos (1040399, 265951)
+  Player 2: Foot (1059, 239.33450317382812), ClosestKP Idx 0, MiniPos (477299, -7740)
+Frame 214: Player BBoxes count: 2
+  Player 1: Foot (779, 889.5553588867188), ClosestKP Idx 2, MiniPos (1034381, 268725)
+  Player 2: Foot (1056, 239.50436401367188), ClosestKP Idx 0, MiniPos (473862, -7546)
+Frame 215: Player BBoxes count: 2
+  Player 1: Foot (779, 890.5665283203125), ClosestKP Idx 2, MiniPos (1034381, 271008)
+  Player 2: Foot (1056, 239.3999481201172), ClosestKP Idx 0, MiniPos (473862, -7665)
+Frame 216: Player BBoxes count: 2
+  Player 1: Foot (779, 890.4594116210938), ClosestKP Idx 2, MiniPos (1034381, 270767)
+  Player 2: Foot (1057, 239.2350616455078), ClosestKP Idx 0, MiniPos (475007, -7854)
+Frame 217: Player BBoxes count: 2
+  Player 1: Foot (780, 890.420654296875), ClosestKP Idx 2, MiniPos (1036145, 270550)
+  Player 2: Foot (1057, 239.21360778808594), ClosestKP Idx 0, MiniPos (475007, -7879)
+Frame 218: Player BBoxes count: 2
+  Player 1: Foot (781, 890.7857055664062), ClosestKP Idx 2, MiniPos (1038402, 271374)
+  Player 2: Foot (1058, 238.8201141357422), ClosestKP Idx 0, MiniPos (476153, -8330)
+Frame 219: Player BBoxes count: 2
+  Player 1: Foot (780, 891.3936157226562), ClosestKP Idx 2, MiniPos (1032770, 271858)
+  Player 2: Foot (1059, 238.64794921875), ClosestKP Idx 0, MiniPos (477299, -8527)
+Frame 220: Player BBoxes count: 2
+  Player 1: Foot (780, 891.6582641601562), ClosestKP Idx 2, MiniPos (1031185, 272035)
+  Player 2: Foot (1061, 238.7899932861328), ClosestKP Idx 0, MiniPos (479591, -8364)
+Frame 221: Player BBoxes count: 2
+  Player 1: Foot (780, 891.403564453125), ClosestKP Idx 2, MiniPos (1027301, 270441)
+  Player 2: Foot (1062, 239.10926818847656), ClosestKP Idx 0, MiniPos (480736, -7999)
+Frame 222: Player BBoxes count: 2
+  Player 1: Foot (781, 890.2673950195312), ClosestKP Idx 2, MiniPos (1028310, 267579)
+  Player 2: Foot (1063, 238.96051025390625), ClosestKP Idx 0, MiniPos (481882, -8169)
+Frame 223: Player BBoxes count: 2
+  Player 1: Foot (782, 889.266845703125), ClosestKP Idx 2, MiniPos (1026921, 264410)
+  Player 2: Foot (1067, 238.57237243652344), ClosestKP Idx 0, MiniPos (486466, -8614)
+Frame 224: Player BBoxes count: 2
+  Player 1: Foot (785, 888.7247314453125), ClosestKP Idx 2, MiniPos (1032134, 262828)
+  Player 2: Foot (1067, 236.95457458496094), ClosestKP Idx 0, MiniPos (486466, -10467)
+Frame 225: Player BBoxes count: 2
+  Player 1: Foot (787, 888.8578491210938), ClosestKP Idx 2, MiniPos (1030483, 261577)
+  Player 2: Foot (1066, 237.1063232421875), ClosestKP Idx 0, MiniPos (485320, -10294)
+Frame 226: Player BBoxes count: 2
+  Player 1: Foot (790, 888.988525390625), ClosestKP Idx 2, MiniPos (1023427, 258411)
+  Player 2: Foot (1065, 235.98928833007812), ClosestKP Idx 0, MiniPos (484174, -11573)
+Frame 227: Player BBoxes count: 2
+  Player 1: Foot (798, 889.7342529296875), ClosestKP Idx 2, MiniPos (1029514, 257199)
+  Player 2: Foot (1065, 235.50967407226562), ClosestKP Idx 0, MiniPos (484174, -12123)
+Frame 228: Player BBoxes count: 2
+  Player 1: Foot (809, 890.2482299804688), ClosestKP Idx 2, MiniPos (1040496, 255181)
+  Player 2: Foot (1064, 235.8284149169922), ClosestKP Idx 0, MiniPos (483028, -11758)
+Frame 229: Player BBoxes count: 2
+  Player 1: Foot (821, 889.5208740234375), ClosestKP Idx 2, MiniPos (1059657, 252104)
+  Player 2: Foot (1064, 236.1178436279297), ClosestKP Idx 0, MiniPos (483028, -11426)
+Frame 230: Player BBoxes count: 2
+  Player 1: Foot (834, 889.4763793945312), ClosestKP Idx 2, MiniPos (1087203, 252010)
+  Player 2: Foot (1064, 235.00509643554688), ClosestKP Idx 0, MiniPos (483028, -12701)
+Frame 231: Player BBoxes count: 2
+  Player 1: Foot (851, 889.1473999023438), ClosestKP Idx 2, MiniPos (1123225, 251313)
+  Player 2: Foot (1063, 234.75088500976562), ClosestKP Idx 0, MiniPos (481882, -12992)
+Frame 232: Player BBoxes count: 2
+  Player 1: Foot (864, 889.0507202148438), ClosestKP Idx 2, MiniPos (1144880, 249823)
+  Player 2: Foot (1063, 235.07835388183594), ClosestKP Idx 0, MiniPos (481882, -12617)
+Frame 233: Player BBoxes count: 2
+  Player 1: Foot (872, 888.9434204101562), ClosestKP Idx 2, MiniPos (1156643, 248502)
+  Player 2: Foot (1062, 234.92642211914062), ClosestKP Idx 0, MiniPos (480736, -12791)
+Frame 234: Player BBoxes count: 2
+  Player 1: Foot (880, 889.016357421875), ClosestKP Idx 2, MiniPos (1187874, 251713)
+  Player 2: Foot (1062, 235.26380920410156), ClosestKP Idx 0, MiniPos (480736, -12405)
+Frame 235: Player BBoxes count: 2
+  Player 1: Foot (885, 889.0250244140625), ClosestKP Idx 2, MiniPos (1218045, 255834)
+  Player 2: Foot (1061, 235.5984649658203), ClosestKP Idx 0, MiniPos (477491, -11968)
+Frame 236: Player BBoxes count: 2
+  Player 1: Foot (891, 888.9351806640625), ClosestKP Idx 2, MiniPos (1248739, 259321)
+  Player 2: Foot (1060, 234.98233032226562), ClosestKP Idx 0, MiniPos (466813, -12415)
+Frame 237: Player BBoxes count: 2
+  Player 1: Foot (895, 888.09130859375), ClosestKP Idx 2, MiniPos (1275991, 261256)
+  Player 2: Foot (1058, 234.2399139404297), ClosestKP Idx 0, MiniPos (463135, -13204)
+Frame 238: Player BBoxes count: 2
+  Player 1: Foot (901, 886.82177734375), ClosestKP Idx 2, MiniPos (1303789, 261330)
+  Player 2: Foot (1054, 233.7155303955078), ClosestKP Idx 0, MiniPos (457671, -13757)
+Frame 239: Player BBoxes count: 2
+  Player 1: Foot (912, 882.7395629882812), ClosestKP Idx 2, MiniPos (1337456, 253850)
+  Player 2: Foot (1050, 233.2104949951172), ClosestKP Idx 0, MiniPos (450882, -14244)
+Frame 240: Player BBoxes count: 2
+  Player 1: Foot (921, 884.5743408203125), ClosestKP Idx 2, MiniPos (1374864, 261238)
+  Player 2: Foot (1045, 233.63134765625), ClosestKP Idx 0, MiniPos (445352, -13779)
+Frame 241: Player BBoxes count: 2
+  Player 1: Foot (936, 886.3672485351562), ClosestKP Idx 2, MiniPos (1424240, 268169)
+  Player 2: Foot (1040, 233.6541290283203), ClosestKP Idx 0, MiniPos (439821, -13754)
+Frame 242: Player BBoxes count: 2
+  Player 1: Foot (952, 887.26904296875), ClosestKP Idx 2, MiniPos (1478279, 273397)
+  Player 2: Foot (1036, 232.87872314453125), ClosestKP Idx 0, MiniPos (435396, -14611)
+Frame 243: Player BBoxes count: 2
+  Player 1: Foot (971, 887.0367431640625), ClosestKP Idx 2, MiniPos (1522790, 272852)
+  Player 2: Foot (1032, 231.4696044921875), ClosestKP Idx 0, MiniPos (419286, -15728)
+Frame 244: Player BBoxes count: 2
+  Player 1: Foot (997, 887.29150390625), ClosestKP Idx 2, MiniPos (1583699, 273449)
+  Player 2: Foot (1029, 230.11416625976562), ClosestKP Idx 0, MiniPos (402583, -16625)
+Frame 245: Player BBoxes count: 2
+  Player 1: Foot (1013, 886.8259887695312), ClosestKP Idx 2, MiniPos (1621182, 272359)
+  Player 2: Foot (1026, 229.33139038085938), ClosestKP Idx 0, MiniPos (390253, -17035)
+Frame 246: Player BBoxes count: 2
+  Player 1: Foot (1025, 887.8659057617188), ClosestKP Idx 2, MiniPos (1649294, 274795)
+  Player 2: Foot (1024, 230.43894958496094), ClosestKP Idx 0, MiniPos (383630, -15719)
+Frame 247: Player BBoxes count: 2
+  Player 1: Foot (1032, 894.0355834960938), ClosestKP Idx 2, MiniPos (1676966, 291204)
+  Player 2: Foot (1020, 232.43772888183594), ClosestKP Idx 0, MiniPos (379610, -13710)
+Frame 248: Player BBoxes count: 2
+  Player 1: Foot (1041, 898.6612548828125), ClosestKP Idx 2, MiniPos (1716837, 305428)
+  Player 2: Foot (1016, 232.4375457763672), ClosestKP Idx 0, MiniPos (375591, -13711)
+Frame 249: Player BBoxes count: 2
+  Player 1: Foot (1050, 903.5762329101562), ClosestKP Idx 2, MiniPos (1744738, 318322)
+  Player 2: Foot (1013, 232.46728515625), ClosestKP Idx 0, MiniPos (372576, -13681)
+Frame 250: Player BBoxes count: 2
+  Player 1: Foot (1058, 904.7944946289062), ClosestKP Idx 2, MiniPos (1768594, 322095)
+  Player 2: Foot (1009, 232.63076782226562), ClosestKP Idx 0, MiniPos (368556, -13516)
+Frame 251: Player BBoxes count: 2
+  Player 1: Foot (1067, 906.6521606445312), ClosestKP Idx 2, MiniPos (1790191, 326553)
+  Player 2: Foot (1004, 233.68685913085938), ClosestKP Idx 0, MiniPos (363532, -12455)
+Frame 252: Player BBoxes count: 2
+  Player 1: Foot (1079, 907.739990234375), ClosestKP Idx 2, MiniPos (1824124, 330092)
+  Player 2: Foot (1001, 234.58326721191406), ClosestKP Idx 0, MiniPos (360517, -11554)
+Frame 253: Player BBoxes count: 2
+  Player 1: Foot (1092, 908.4728393554688), ClosestKP Idx 2, MiniPos (1888054, 337691)
+  Player 2: Foot (999, 235.54238891601562), ClosestKP Idx 0, MiniPos (358507, -10591)
+Frame 254: Player BBoxes count: 2
+  Player 1: Foot (1101, 914.1218872070312), ClosestKP Idx 2, MiniPos (1910094, 351525)
+  Player 2: Foot (998, 235.24880981445312), ClosestKP Idx 0, MiniPos (357503, -10886)
+Frame 255: Player BBoxes count: 2
+  Player 1: Foot (1111, 920.2847900390625), ClosestKP Idx 2, MiniPos (1934583, 366617)
+  Player 2: Foot (997, 234.8984375), ClosestKP Idx 0, MiniPos (356498, -11238)
+Frame 256: Player BBoxes count: 2
+  Player 1: Foot (1125, 928.6182861328125), ClosestKP Idx 2, MiniPos (1968867, 387025)
+  Player 2: Foot (997, 234.49781799316406), ClosestKP Idx 0, MiniPos (356498, -11640)
+Frame 257: Player BBoxes count: 2
+  Player 1: Foot (1136, 931.5092163085938), ClosestKP Idx 2, MiniPos (1995805, 394104)
+  Player 2: Foot (997, 234.1773681640625), ClosestKP Idx 0, MiniPos (356498, -11962)
+Frame 258: Player BBoxes count: 2
+  Player 1: Foot (1147, 932.0335083007812), ClosestKP Idx 2, MiniPos (2022742, 395388)
+  Player 2: Foot (997, 233.82171630859375), ClosestKP Idx 0, MiniPos (356498, -12320)
+Frame 259: Player BBoxes count: 2
+  Player 1: Foot (1160, 930.8816528320312), ClosestKP Idx 2, MiniPos (2054578, 392567)
+  Player 2: Foot (997, 234.04483032226562), ClosestKP Idx 0, MiniPos (356498, -12095)
+Frame 260: Player BBoxes count: 2
+  Player 1: Foot (1170, 932.1697387695312), ClosestKP Idx 2, MiniPos (2079066, 395722)
+  Player 2: Foot (996, 233.70761108398438), ClosestKP Idx 0, MiniPos (355493, -12434)
+Frame 261: Player BBoxes count: 2
+  Player 1: Foot (1180, 934.2147827148438), ClosestKP Idx 2, MiniPos (2103555, 400730)
+  Player 2: Foot (995, 233.50611877441406), ClosestKP Idx 0, MiniPos (354488, -12637)
+Frame 262: Player BBoxes count: 2
+  Player 1: Foot (1188, 935.7174682617188), ClosestKP Idx 2, MiniPos (2123146, 404410)
+  Player 2: Foot (994, 233.6957244873047), ClosestKP Idx 0, MiniPos (353483, -12446)
+Frame 263: Player BBoxes count: 2
+  Player 1: Foot (1195, 938.2662963867188), ClosestKP Idx 2, MiniPos (2140288, 410651)
+  Player 2: Foot (993, 233.92245483398438), ClosestKP Idx 0, MiniPos (352478, -12218)
+Frame 264: Player BBoxes count: 2
+  Player 1: Foot (1202, 939.697998046875), ClosestKP Idx 2, MiniPos (2157430, 414157)
+  Player 2: Foot (991, 234.5093231201172), ClosestKP Idx 0, MiniPos (350468, -11629)
+Frame 265: Player BBoxes count: 2
+  Player 1: Foot (1208, 940.1473388671875), ClosestKP Idx 2, MiniPos (2172124, 415258)
+  Player 2: Foot (990, 234.3555145263672), ClosestKP Idx 0, MiniPos (349463, -11783)
+Frame 266: Player BBoxes count: 2
+  Player 1: Foot (1213, 940.5435791015625), ClosestKP Idx 2, MiniPos (2184368, 416228)
+  Player 2: Foot (989, 235.09690856933594), ClosestKP Idx 0, MiniPos (348458, -11038)
+Frame 267: Player BBoxes count: 2
+  Player 1: Foot (1218, 940.8646850585938), ClosestKP Idx 2, MiniPos (2196612, 417014)
+  Player 2: Foot (987, 235.6239471435547), ClosestKP Idx 0, MiniPos (346449, -10509)
+Frame 268: Player BBoxes count: 2
+  Player 1: Foot (1222, 941.2197875976562), ClosestKP Idx 2, MiniPos (2206408, 417884)
+  Player 2: Foot (985, 236.40184020996094), ClosestKP Idx 0, MiniPos (344439, -9727)
+Frame 269: Player BBoxes count: 2
+  Player 1: Foot (1225, 941.2759399414062), ClosestKP Idx 2, MiniPos (2213755, 418022)
+  Player 2: Foot (983, 237.7543182373047), ClosestKP Idx 0, MiniPos (342429, -8368)
+Frame 270: Player BBoxes count: 2
+  Player 1: Foot (1228, 940.94677734375), ClosestKP Idx 2, MiniPos (2221101, 417215)
+  Player 2: Foot (982, 238.62796020507812), ClosestKP Idx 0, MiniPos (341424, -7490)
+Frame 271: Player BBoxes count: 2
+  Player 1: Foot (1229, 941.5536499023438), ClosestKP Idx 2, MiniPos (2223550, 418702)
+  Player 2: Foot (979, 239.16485595703125), ClosestKP Idx 0, MiniPos (338409, -6950)
+Frame 272: Player BBoxes count: 2
+  Player 1: Foot (1231, 941.6063842773438), ClosestKP Idx 2, MiniPos (2228448, 418831)
+  Player 2: Foot (978, 241.2309112548828), ClosestKP Idx 0, MiniPos (337404, -4874)
+Frame 273: Player BBoxes count: 2
+  Player 1: Foot (1234, 941.0364990234375), ClosestKP Idx 2, MiniPos (2235794, 417435)
+  Player 2: Foot (977, 241.85391235351562), ClosestKP Idx 0, MiniPos (336400, -4248)
+Frame 274: Player BBoxes count: 2
+  Player 1: Foot (1236, 940.7034301757812), ClosestKP Idx 2, MiniPos (2240692, 416620)
+  Player 2: Foot (975, 241.6310577392578), ClosestKP Idx 0, MiniPos (334390, -4472)
+Frame 275: Player BBoxes count: 2
+  Player 1: Foot (1237, 940.5747680664062), ClosestKP Idx 2, MiniPos (2243141, 416304)
+  Player 2: Foot (974, 241.2806396484375), ClosestKP Idx 0, MiniPos (333385, -4824)
+Frame 276: Player BBoxes count: 2
+  Player 1: Foot (1238, 940.6793823242188), ClosestKP Idx 2, MiniPos (2245590, 416561)
+  Player 2: Foot (974, 241.3125762939453), ClosestKP Idx 0, MiniPos (333385, -4792)
+Frame 277: Player BBoxes count: 2
+  Player 1: Foot (1240, 940.443359375), ClosestKP Idx 2, MiniPos (2250488, 415983)
+  Player 2: Foot (974, 241.44143676757812), ClosestKP Idx 0, MiniPos (333385, -4663)
+Frame 278: Player BBoxes count: 2
+  Player 1: Foot (1240, 939.853271484375), ClosestKP Idx 2, MiniPos (2250488, 414538)
+  Player 2: Foot (974, 241.00967407226562), ClosestKP Idx 0, MiniPos (333385, -5096)
+Frame 279: Player BBoxes count: 2
+  Player 1: Foot (1241, 939.9351196289062), ClosestKP Idx 2, MiniPos (2252936, 414738)
+  Player 2: Foot (974, 241.1304168701172), ClosestKP Idx 0, MiniPos (333385, -4975)
+Frame 280: Player BBoxes count: 2
+  Player 1: Foot (1242, 940.3697509765625), ClosestKP Idx 2, MiniPos (2255385, 415802)
+  Player 2: Foot (974, 241.6962127685547), ClosestKP Idx 0, MiniPos (333385, -4407)
+Frame 281: Player BBoxes count: 2
+  Player 1: Foot (1244, 940.4895629882812), ClosestKP Idx 2, MiniPos (2260283, 416096)
+  Player 2: Foot (974, 242.1584930419922), ClosestKP Idx 0, MiniPos (333385, -3942)
+Frame 282: Player BBoxes count: 2
+  Player 1: Foot (1245, 940.0625610351562), ClosestKP Idx 2, MiniPos (2262732, 415050)
+  Player 2: Foot (973, 242.4727325439453), ClosestKP Idx 0, MiniPos (332380, -3626)
+Frame 283: Player BBoxes count: 2
+  Player 1: Foot (1247, 940.1388549804688), ClosestKP Idx 2, MiniPos (2267630, 415237)
+  Player 2: Foot (973, 243.0692901611328), ClosestKP Idx 0, MiniPos (332380, -3027)
+Frame 284: Player BBoxes count: 2
+  Player 1: Foot (1250, 940.4506225585938), ClosestKP Idx 2, MiniPos (2274976, 416000)
+  Player 2: Foot (973, 243.6058349609375), ClosestKP Idx 0, MiniPos (332380, -2488)
+Frame 285: Player BBoxes count: 2
+  Player 1: Foot (1252, 940.35546875), ClosestKP Idx 2, MiniPos (2279874, 415767)
+  Player 2: Foot (973, 244.10169982910156), ClosestKP Idx 0, MiniPos (332380, -1989)
+Frame 286: Player BBoxes count: 2
+  Player 1: Foot (1250, 940.197021484375), ClosestKP Idx 2, MiniPos (2274976, 415379)
+  Player 2: Foot (974, 244.6328887939453), ClosestKP Idx 0, MiniPos (333385, -1456)
+Frame 287: Player BBoxes count: 2
+  Player 1: Foot (1249, 940.0398559570312), ClosestKP Idx 2, MiniPos (2272527, 414995)
+  Player 2: Foot (974, 244.24989318847656), ClosestKP Idx 0, MiniPos (333385, -1840)
+Frame 288: Player BBoxes count: 2
+  Player 1: Foot (1247, 938.6535034179688), ClosestKP Idx 2, MiniPos (2267630, 411600)
+  Player 2: Foot (975, 244.39938354492188), ClosestKP Idx 0, MiniPos (334390, -1690)
+Frame 289: Player BBoxes count: 2
+  Player 1: Foot (1245, 939.0675659179688), ClosestKP Idx 2, MiniPos (2262732, 412613)
+  Player 2: Foot (975, 244.11447143554688), ClosestKP Idx 0, MiniPos (334390, -1976)
+Frame 290: Player BBoxes count: 2
+  Player 1: Foot (1243, 940.3726196289062), ClosestKP Idx 2, MiniPos (2257834, 415809)
+  Player 2: Foot (976, 243.86009216308594), ClosestKP Idx 0, MiniPos (336734, -2241)
+Frame 291: Player BBoxes count: 2
+  Player 1: Foot (1241, 942.293701171875), ClosestKP Idx 2, MiniPos (2252936, 420514)
+  Player 2: Foot (978, 243.7681884765625), ClosestKP Idx 0, MiniPos (340923, -2350)
+Frame 292: Player BBoxes count: 2
+  Player 1: Foot (1238, 940.5082397460938), ClosestKP Idx 2, MiniPos (2245590, 416142)
+  Player 2: Foot (981, 243.8762664794922), ClosestKP Idx 0, MiniPos (344479, -2243)
+Frame 293: Player BBoxes count: 2
+  Player 1: Foot (1233, 941.4404296875), ClosestKP Idx 2, MiniPos (2233345, 418424)
+  Player 2: Foot (985, 244.33123779296875), ClosestKP Idx 0, MiniPos (349247, -1784)
+Frame 294: Player BBoxes count: 2
+  Player 1: Foot (1228, 938.92626953125), ClosestKP Idx 2, MiniPos (2221101, 412267)
+  Player 2: Foot (990, 244.641357421875), ClosestKP Idx 0, MiniPos (355815, -1475)
+Frame 295: Player BBoxes count: 2
+  Player 1: Foot (1221, 938.9572143554688), ClosestKP Idx 2, MiniPos (2203959, 412343)
+  Player 2: Foot (995, 244.90899658203125), ClosestKP Idx 0, MiniPos (361679, -1203)
+Frame 296: Player BBoxes count: 2
+  Player 1: Foot (1213, 941.2774658203125), ClosestKP Idx 2, MiniPos (2184368, 418025)
+  Player 2: Foot (1000, 245.29922485351562), ClosestKP Idx 0, MiniPos (370249, -812)
+Frame 297: Player BBoxes count: 2
+  Player 1: Foot (1205, 942.305419921875), ClosestKP Idx 2, MiniPos (2164777, 420543)
+  Player 2: Foot (1005, 244.82376098632812), ClosestKP Idx 0, MiniPos (375424, -1304)
+Frame 298: Player BBoxes count: 2
+  Player 1: Foot (1197, 942.0458984375), ClosestKP Idx 2, MiniPos (2145186, 419907)
+  Player 2: Foot (1008, 244.5548095703125), ClosestKP Idx 0, MiniPos (382250, -1598)
+Frame 299: Player BBoxes count: 2
+  Player 1: Foot (1190, 940.84326171875), ClosestKP Idx 2, MiniPos (2128044, 416962)
+  Player 2: Foot (1010, 244.26953125), ClosestKP Idx 0, MiniPos (389485, -1923)
+Frame 300: Player BBoxes count: 2
+  Player 1: Foot (1180, 937.6809692382812), ClosestKP Idx 2, MiniPos (2103555, 409218)
+  Player 2: Foot (1013, 241.814697265625), ClosestKP Idx 0, MiniPos (395314, -4555)
+Frame 301: Player BBoxes count: 2
+  Player 1: Foot (1171, 937.85986328125), ClosestKP Idx 2, MiniPos (2081515, 409656)
+  Player 2: Foot (1015, 243.09397888183594), ClosestKP Idx 0, MiniPos (400172, -3213)
+Frame 302: Player BBoxes count: 2
+  Player 1: Foot (1164, 938.4193725585938), ClosestKP Idx 2, MiniPos (2064373, 411026)
+  Player 2: Foot (1017, 241.9416046142578), ClosestKP Idx 0, MiniPos (406613, -4499)
+Frame 303: Player BBoxes count: 2
+  Player 1: Foot (1159, 934.0035400390625), ClosestKP Idx 2, MiniPos (2052129, 400212)
+  Player 2: Foot (1020, 243.83944702148438), ClosestKP Idx 0, MiniPos (415768, -2475)
+Frame 304: Player BBoxes count: 2
+  Player 1: Foot (1157, 929.7546997070312), ClosestKP Idx 2, MiniPos (2047231, 389807)
+  Player 2: Foot (1023, 245.29910278320312), ClosestKP Idx 0, MiniPos (420133, -870)
+Frame 305: Player BBoxes count: 2
+  Player 1: Foot (1152, 927.14208984375), ClosestKP Idx 2, MiniPos (2034987, 383410)
+  Player 2: Foot (1026, 246.09872436523438), ClosestKP Idx 0, MiniPos (427837, 12)
+Frame 306: Player BBoxes count: 2
+  Player 1: Foot (1148, 922.6644287109375), ClosestKP Idx 2, MiniPos (2025191, 372444)
+  Player 2: Foot (1030, 246.3604278564453), ClosestKP Idx 0, MiniPos (432298, 303)
+Frame 307: Player BBoxes count: 2
+  Player 1: Foot (1143, 919.4769897460938), ClosestKP Idx 2, MiniPos (2012947, 364639)
+  Player 2: Foot (1034, 246.72509765625), ClosestKP Idx 0, MiniPos (436760, 709)
+Frame 308: Player BBoxes count: 2
+  Player 1: Foot (1136, 913.43359375), ClosestKP Idx 2, MiniPos (1995805, 349839)
+  Player 2: Foot (1038, 247.99794006347656), ClosestKP Idx 0, MiniPos (441221, 2129)
+Frame 309: Player BBoxes count: 2
+  Player 1: Foot (1131, 909.2003784179688), ClosestKP Idx 2, MiniPos (1983560, 339473)
+  Player 2: Foot (1041, 247.24118041992188), ClosestKP Idx 0, MiniPos (444567, 1285)
+Frame 310: Player BBoxes count: 2
+  Player 1: Foot (1125, 905.22265625), ClosestKP Idx 2, MiniPos (1968867, 329732)
+  Player 2: Foot (1044, 249.9173583984375), ClosestKP Idx 0, MiniPos (447913, 4270)
+Frame 311: Player BBoxes count: 2
+  Player 1: Foot (1120, 903.2078247070312), ClosestKP Idx 2, MiniPos (1956623, 324798)
+  Player 2: Foot (1047, 251.91917419433594), ClosestKP Idx 0, MiniPos (451259, 6502)
+Frame 312: Player BBoxes count: 2
+  Player 1: Foot (1115, 902.927490234375), ClosestKP Idx 2, MiniPos (1944378, 324111)
+  Player 2: Foot (1048, 254.04232788085938), ClosestKP Idx 0, MiniPos (452713, 8877)
+Frame 313: Player BBoxes count: 2
+  Player 1: Foot (1111, 909.2046508789062), ClosestKP Idx 2, MiniPos (1934583, 339483)
+  Player 2: Foot (1049, 254.9427490234375), ClosestKP Idx 0, MiniPos (453829, 9882)
+Frame 314: Player BBoxes count: 2
+  Player 1: Foot (1103, 912.1221923828125), ClosestKP Idx 2, MiniPos (1914992, 346628)
+  Player 2: Foot (1049, 255.22183227539062), ClosestKP Idx 0, MiniPos (453829, 10194)
+Frame 315: Player BBoxes count: 2
+  Player 1: Foot (1094, 911.0675048828125), ClosestKP Idx 2, MiniPos (1892952, 344045)
+  Player 2: Foot (1050, 255.25193786621094), ClosestKP Idx 0, MiniPos (454945, 10227)
+Frame 316: Player BBoxes count: 2
+  Player 1: Foot (1084, 909.8565063476562), ClosestKP Idx 2, MiniPos (1868463, 341079)
+  Player 2: Foot (1052, 255.13504028320312), ClosestKP Idx 0, MiniPos (457178, 10097)
+Frame 317: Player BBoxes count: 2
+  Player 1: Foot (1073, 908.8984375), ClosestKP Idx 2, MiniPos (1841526, 338733)
+  Player 2: Foot (1053, 254.9475555419922), ClosestKP Idx 0, MiniPos (458294, 9887)
+Frame 318: Player BBoxes count: 2
+  Player 1: Foot (1064, 908.0966796875), ClosestKP Idx 2, MiniPos (1819486, 336770)
+  Player 2: Foot (1054, 255.17213439941406), ClosestKP Idx 0, MiniPos (459410, 10138)
+Frame 319: Player BBoxes count: 2
+  Player 1: Foot (1055, 908.06787109375), ClosestKP Idx 2, MiniPos (1797446, 336699)
+  Player 2: Foot (1054, 255.13511657714844), ClosestKP Idx 0, MiniPos (459410, 10097)
+Frame 320: Player BBoxes count: 2
+  Player 1: Foot (1049, 907.7262573242188), ClosestKP Idx 2, MiniPos (1782753, 335863)
+  Player 2: Foot (1053, 255.5501708984375), ClosestKP Idx 0, MiniPos (458294, 10560)
+Frame 321: Player BBoxes count: 2
+  Player 1: Foot (1046, 907.6949462890625), ClosestKP Idx 2, MiniPos (1775406, 335786)
+  Player 2: Foot (1053, 255.658203125), ClosestKP Idx 0, MiniPos (458294, 10681)
+Frame 322: Player BBoxes count: 2
+  Player 1: Foot (1043, 909.75439453125), ClosestKP Idx 2, MiniPos (1768060, 340829)
+  Player 2: Foot (1055, 255.87680053710938), ClosestKP Idx 0, MiniPos (460526, 10925)
+Frame 323: Player BBoxes count: 2
+  Player 1: Foot (1042, 911.621826171875), ClosestKP Idx 2, MiniPos (1751679, 342679)
+  Player 2: Foot (1054, 256.2924499511719), ClosestKP Idx 0, MiniPos (459410, 11389)
+Frame 324: Player BBoxes count: 2
+  Player 1: Foot (1042, 912.9536743164062), ClosestKP Idx 2, MiniPos (1730048, 341645)
+  Player 2: Foot (1055, 258.57843017578125), ClosestKP Idx 0, MiniPos (460526, 13940)
+Frame 325: Player BBoxes count: 2
+  Player 1: Foot (1041, 913.863525390625), ClosestKP Idx 2, MiniPos (1725982, 343497)
+  Player 2: Foot (1053, 261.92913818359375), ClosestKP Idx 0, MiniPos (458294, 17680)
+Frame 326: Player BBoxes count: 2
+  Player 1: Foot (1040, 913.4944458007812), ClosestKP Idx 2, MiniPos (1699182, 337764)
+  Player 2: Foot (1054, 261.93670654296875), ClosestKP Idx 0, MiniPos (459410, 17689)
+Frame 327: Player BBoxes count: 2
+  Player 1: Foot (1038, 913.6025390625), ClosestKP Idx 2, MiniPos (1687321, 336597)
+  Player 2: Foot (1055, 263.7417297363281), ClosestKP Idx 0, MiniPos (460526, 19703)
+Frame 328: Player BBoxes count: 2
+  Player 1: Foot (1033, 912.7338256835938), ClosestKP Idx 2, MiniPos (1675555, 334553)
+  Player 2: Foot (1056, 264.99432373046875), ClosestKP Idx 0, MiniPos (463518, 21187)
+Frame 329: Player BBoxes count: 2
+  Player 1: Foot (1029, 912.4017333984375), ClosestKP Idx 2, MiniPos (1666142, 333772)
+  Player 2: Foot (1057, 268.2705383300781), ClosestKP Idx 0, MiniPos (469977, 25145)
+Frame 330: Player BBoxes count: 2
+  Player 1: Foot (1027, 913.0853271484375), ClosestKP Idx 2, MiniPos (1661436, 335380)
+  Player 2: Foot (1057, 269.3424072265625), ClosestKP Idx 0, MiniPos (469977, 26360)
+Frame 331: Player BBoxes count: 2
+  Player 1: Foot (1025, 912.9236450195312), ClosestKP Idx 2, MiniPos (1656729, 335000)
+  Player 2: Foot (1059, 269.0489807128906), ClosestKP Idx 0, MiniPos (472244, 26027)
+Frame 332: Player BBoxes count: 2
+  Player 1: Foot (1023, 914.0995483398438), ClosestKP Idx 2, MiniPos (1652023, 337767)
+  Player 2: Foot (1062, 268.8749084472656), ClosestKP Idx 0, MiniPos (475645, 25830)
+Frame 333: Player BBoxes count: 2
+  Player 1: Foot (1021, 915.1510620117188), ClosestKP Idx 2, MiniPos (1647316, 340241)
+  Player 2: Foot (1064, 269.0257263183594), ClosestKP Idx 0, MiniPos (477912, 26001)
+Frame 334: Player BBoxes count: 2
+  Player 1: Foot (1018, 916.620361328125), ClosestKP Idx 2, MiniPos (1640256, 343699)
+  Player 2: Foot (1066, 271.3458251953125), ClosestKP Idx 0, MiniPos (480179, 28631)
+Frame 335: Player BBoxes count: 2
+  Player 1: Foot (1014, 919.4736938476562), ClosestKP Idx 2, MiniPos (1630843, 350414)
+  Player 2: Foot (1066, 273.67840576171875), ClosestKP Idx 0, MiniPos (480331, 31285)
+Frame 336: Player BBoxes count: 2
+  Player 1: Foot (1008, 920.045654296875), ClosestKP Idx 2, MiniPos (1616724, 351760)
+  Player 2: Foot (1068, 275.4212646484375), ClosestKP Idx 0, MiniPos (484046, 33361)
+Frame 337: Player BBoxes count: 2
+  Player 1: Foot (1002, 921.4539794921875), ClosestKP Idx 2, MiniPos (1602605, 355074)
+  Player 2: Foot (1069, 279.043212890625), ClosestKP Idx 0, MiniPos (485184, 37481)
+Frame 338: Player BBoxes count: 2
+  Player 1: Foot (996, 922.1392211914062), ClosestKP Idx 2, MiniPos (1588485, 356686)
+  Player 2: Foot (1070, 281.3985900878906), ClosestKP Idx 12, MiniPos (135999, -37423)
+Frame 339: Player BBoxes count: 2
+  Player 1: Foot (991, 922.6171875), ClosestKP Idx 2, MiniPos (1576719, 357811)
+  Player 2: Foot (1075, 283.078125), ClosestKP Idx 12, MiniPos (141731, -35498)
+Frame 340: Player BBoxes count: 2
+  Player 1: Foot (987, 923.0527954101562), ClosestKP Idx 2, MiniPos (1567306, 358836)
+  Player 2: Foot (1077, 283.8439636230469), ClosestKP Idx 12, MiniPos (144024, -34620)
+Frame 341: Player BBoxes count: 2
+  Player 1: Foot (985, 923.9344482421875), ClosestKP Idx 2, MiniPos (1562599, 360911)
+  Player 2: Foot (1077, 284.17779541015625), ClosestKP Idx 12, MiniPos (144024, -34237)
+Frame 342: Player BBoxes count: 2
+  Player 1: Foot (984, 927.4291381835938), ClosestKP Idx 2, MiniPos (1560246, 369135)
+  Player 2: Foot (1079, 283.97637939453125), ClosestKP Idx 12, MiniPos (147742, -34810)
+Frame 343: Player BBoxes count: 2
+  Player 1: Foot (984, 930.79248046875), ClosestKP Idx 2, MiniPos (1560246, 377050)
+  Player 2: Foot (1079, 284.26751708984375), ClosestKP Idx 12, MiniPos (147742, -34473)
+Frame 344: Player BBoxes count: 2
+  Player 1: Foot (984, 930.4630737304688), ClosestKP Idx 2, MiniPos (1560246, 376274)
+  Player 2: Foot (1080, 284.2063903808594), ClosestKP Idx 12, MiniPos (148900, -34543)
+Frame 345: Player BBoxes count: 2
+  Player 1: Foot (984, 929.160400390625), ClosestKP Idx 2, MiniPos (1560246, 373209)
+  Player 2: Foot (1082, 284.10113525390625), ClosestKP Idx 12, MiniPos (151597, -34754)
+Frame 346: Player BBoxes count: 2
+  Player 1: Foot (984, 930.3113403320312), ClosestKP Idx 2, MiniPos (1560246, 375917)
+  Player 2: Foot (1084, 283.58001708984375), ClosestKP Idx 12, MiniPos (153919, -35359)
+Frame 347: Player BBoxes count: 2
+  Player 1: Foot (984, 930.8406982421875), ClosestKP Idx 2, MiniPos (1560246, 377163)
+  Player 2: Foot (1086, 283.649658203125), ClosestKP Idx 12, MiniPos (156240, -35278)
+Frame 348: Player BBoxes count: 2
+  Player 1: Foot (983, 929.0650634765625), ClosestKP Idx 2, MiniPos (1557893, 372985)
+  Player 2: Foot (1089, 283.3243103027344), ClosestKP Idx 12, MiniPos (159722, -35656)
+Frame 349: Player BBoxes count: 2
+  Player 1: Foot (983, 930.1446533203125), ClosestKP Idx 2, MiniPos (1557893, 375525)
+  Player 2: Foot (1091, 282.9139099121094), ClosestKP Idx 12, MiniPos (162044, -36132)
+Frame 350: Player BBoxes count: 2
+  Player 1: Foot (982, 930.6094970703125), ClosestKP Idx 2, MiniPos (1555539, 376619)
+  Player 2: Foot (1094, 283.622314453125), ClosestKP Idx 12, MiniPos (165526, -35310)
+Frame 351: Player BBoxes count: 2
+  Player 1: Foot (980, 930.5328369140625), ClosestKP Idx 2, MiniPos (1550833, 376439)
+  Player 2: Foot (1095, 284.634765625), ClosestKP Idx 12, MiniPos (166686, -34135)
+Frame 352: Player BBoxes count: 2
+  Player 1: Foot (979, 929.94873046875), ClosestKP Idx 2, MiniPos (1548480, 375064)
+  Player 2: Foot (1097, 286.55621337890625), ClosestKP Idx 12, MiniPos (169008, -31905)
+Frame 353: Player BBoxes count: 2
+  Player 1: Foot (977, 934.1767578125), ClosestKP Idx 2, MiniPos (1543773, 385014)
+  Player 2: Foot (1097, 287.36236572265625), ClosestKP Idx 12, MiniPos (169008, -30969)
+Frame 354: Player BBoxes count: 2
+  Player 1: Foot (973, 939.0676879882812), ClosestKP Idx 2, MiniPos (1534360, 396523)
+  Player 2: Foot (1098, 289.0509033203125), ClosestKP Idx 12, MiniPos (170168, -29009)
+Frame 355: Player BBoxes count: 2
+  Player 1: Foot (968, 942.7857055664062), ClosestKP Idx 2, MiniPos (1522594, 405273)
+  Player 2: Foot (1098, 290.11773681640625), ClosestKP Idx 12, MiniPos (170168, -27771)
+Frame 356: Player BBoxes count: 2
+  Player 1: Foot (965, 945.4751586914062), ClosestKP Idx 2, MiniPos (1515534, 411602)
+  Player 2: Foot (1098, 290.80328369140625), ClosestKP Idx 12, MiniPos (170168, -26975)
+Frame 357: Player BBoxes count: 2
+  Player 1: Foot (964, 947.3773193359375), ClosestKP Idx 2, MiniPos (1513181, 416078)
+  Player 2: Foot (1099, 292.10736083984375), ClosestKP Idx 12, MiniPos (171329, -25461)
+Frame 358: Player BBoxes count: 2
+  Player 1: Foot (963, 948.911865234375), ClosestKP Idx 2, MiniPos (1510827, 419689)
+  Player 2: Foot (1102, 292.94378662109375), ClosestKP Idx 12, MiniPos (174811, -24490)
+Frame 359: Player BBoxes count: 2
+  Player 1: Foot (963, 949.9252319335938), ClosestKP Idx 2, MiniPos (1510827, 422074)
+  Player 2: Foot (1104, 294.94158935546875), ClosestKP Idx 12, MiniPos (177133, -22172)
+Frame 360: Player BBoxes count: 2
+  Player 1: Foot (960, 950.491455078125), ClosestKP Idx 2, MiniPos (1503768, 423406)
+  Player 2: Foot (1105, 297.6536560058594), ClosestKP Idx 12, MiniPos (178293, -19024)
+Frame 361: Player BBoxes count: 2
+  Player 1: Foot (956, 950.95263671875), ClosestKP Idx 2, MiniPos (1494355, 424492)
+  Player 2: Foot (1105, 299.4971618652344), ClosestKP Idx 12, MiniPos (178293, -16884)
+Frame 362: Player BBoxes count: 2
+  Player 1: Foot (953, 952.1375732421875), ClosestKP Idx 2, MiniPos (1487295, 427280)
+  Player 2: Foot (1104, 301.1954345703125), ClosestKP Idx 12, MiniPos (177133, -14913)
+Frame 363: Player BBoxes count: 2
+  Player 1: Foot (952, 951.7952880859375), ClosestKP Idx 2, MiniPos (1484942, 426475)
+  Player 2: Foot (1103, 301.9715881347656), ClosestKP Idx 12, MiniPos (175972, -14012)
+Frame 364: Player BBoxes count: 2
+  Player 1: Foot (951, 952.2353515625), ClosestKP Idx 2, MiniPos (1482588, 427510)
+  Player 2: Foot (1103, 302.2260437011719), ClosestKP Idx 12, MiniPos (175972, -13717)
+Frame 365: Player BBoxes count: 2
+  Player 1: Foot (951, 951.7994384765625), ClosestKP Idx 2, MiniPos (1482588, 426484)
+  Player 2: Foot (1103, 301.92388916015625), ClosestKP Idx 12, MiniPos (175972, -14067)
+Frame 366: Player BBoxes count: 2
+  Player 1: Foot (950, 951.7208251953125), ClosestKP Idx 2, MiniPos (1480235, 426299)
+  Player 2: Foot (1102, 301.7206115722656), ClosestKP Idx 12, MiniPos (174811, -14303)
+Frame 367: Player BBoxes count: 2
+  Player 1: Foot (949, 951.1793212890625), ClosestKP Idx 2, MiniPos (1477882, 425025)
+  Player 2: Foot (1102, 301.7332458496094), ClosestKP Idx 12, MiniPos (174811, -14289)
+Frame 368: Player BBoxes count: 2
+  Player 1: Foot (947, 950.6448974609375), ClosestKP Idx 2, MiniPos (1473175, 423767)
+  Player 2: Foot (1102, 301.83709716796875), ClosestKP Idx 12, MiniPos (174811, -14168)
+Frame 369: Player BBoxes count: 2
+  Player 1: Foot (941, 950.700927734375), ClosestKP Idx 2, MiniPos (1459056, 423899)
+  Player 2: Foot (1102, 301.80792236328125), ClosestKP Idx 12, MiniPos (174811, -14202)
+Frame 370: Player BBoxes count: 2
+  Player 1: Foot (926, 949.8494873046875), ClosestKP Idx 2, MiniPos (1423757, 421896)
+  Player 2: Foot (1101, 301.5400695800781), ClosestKP Idx 12, MiniPos (173651, -14513)
+Frame 371: Player BBoxes count: 2
+  Player 1: Foot (921, 950.8079833984375), ClosestKP Idx 2, MiniPos (1411991, 424151)
+  Player 2: Foot (1099, 301.20867919921875), ClosestKP Idx 12, MiniPos (171329, -14897)
+Frame 372: Player BBoxes count: 2
+  Player 1: Foot (915, 951.878173828125), ClosestKP Idx 2, MiniPos (1397871, 426670)
+  Player 2: Foot (1097, 301.6401062011719), ClosestKP Idx 12, MiniPos (169008, -14397)
+Frame 373: Player BBoxes count: 2
+  Player 1: Foot (901, 951.1817626953125), ClosestKP Idx 2, MiniPos (1364926, 425031)
+  Player 2: Foot (1096, 303.3228454589844), ClosestKP Idx 12, MiniPos (167847, -12443)
+Frame 374: Player BBoxes count: 2
+  Player 1: Foot (886, 950.539306640625), ClosestKP Idx 2, MiniPos (1329627, 423519)
+  Player 2: Foot (1094, 305.51605224609375), ClosestKP Idx 12, MiniPos (165526, -9898)
+Frame 375: Player BBoxes count: 2
+  Player 1: Foot (873, 950.5029907226562), ClosestKP Idx 2, MiniPos (1299035, 423433)
+  Player 2: Foot (1093, 309.28070068359375), ClosestKP Idx 12, MiniPos (164365, -5528)
+Frame 376: Player BBoxes count: 2
+  Player 1: Foot (857, 950.2144775390625), ClosestKP Idx 2, MiniPos (1261383, 422754)
+  Player 2: Foot (1090, 312.2157287597656), ClosestKP Idx 12, MiniPos (160883, -2121)
+Frame 377: Player BBoxes count: 2
+  Player 1: Foot (848, 950.5846557617188), ClosestKP Idx 2, MiniPos (1234343, 421624)
+  Player 2: Foot (1088, 313.5196228027344), ClosestKP Idx 12, MiniPos (158561, -608)
+Frame 378: Player BBoxes count: 2
+  Player 1: Foot (840, 950.4291381835938), ClosestKP Idx 2, MiniPos (1209120, 419012)
+  Player 2: Foot (1084, 314.4088134765625), ClosestKP Idx 12, MiniPos (153919, 423)
+Frame 379: Player BBoxes count: 2
+  Player 1: Foot (833, 950.5210571289062), ClosestKP Idx 2, MiniPos (1183287, 415877)
+  Player 2: Foot (1080, 314.154541015625), ClosestKP Idx 12, MiniPos (149276, 129)
+Frame 380: Player BBoxes count: 2
+  Player 1: Foot (828, 950.58251953125), ClosestKP Idx 2, MiniPos (1153196, 409437)
+  Player 2: Foot (1075, 313.7448425292969), ClosestKP Idx 12, MiniPos (143472, -347)
+Frame 381: Player BBoxes count: 2
+  Player 1: Foot (822, 949.4775390625), ClosestKP Idx 2, MiniPos (1136068, 405681)
+  Player 2: Foot (1070, 313.55499267578125), ClosestKP Idx 12, MiniPos (137669, -567)
+Frame 382: Player BBoxes count: 2
+  Player 1: Foot (814, 947.03466796875), ClosestKP Idx 2, MiniPos (1117469, 399977)
+  Player 2: Foot (1066, 313.419677734375), ClosestKP Idx 12, MiniPos (133026, -724)
+Frame 383: Player BBoxes count: 2
+  Player 1: Foot (807, 941.3064575195312), ClosestKP Idx 2, MiniPos (1101604, 386994)
+  Player 2: Foot (1061, 313.4034423828125), ClosestKP Idx 12, MiniPos (127223, -743)
+Frame 384: Player BBoxes count: 2
+  Player 1: Foot (795, 934.3634643554688), ClosestKP Idx 2, MiniPos (1074406, 371258)
+  Player 2: Foot (1056, 313.9017333984375), ClosestKP Idx 12, MiniPos (121419, -165)
+Frame 385: Player BBoxes count: 2
+  Player 1: Foot (784, 935.3522338867188), ClosestKP Idx 2, MiniPos (1049475, 373499)
+  Player 2: Foot (1052, 314.0028991699219), ClosestKP Idx 12, MiniPos (116776, -47)
+Frame 386: Player BBoxes count: 2
+  Player 1: Foot (772, 942.0440673828125), ClosestKP Idx 2, MiniPos (1022277, 388666)
+  Player 2: Foot (1048, 313.97625732421875), ClosestKP Idx 12, MiniPos (112133, -78)
+Frame 387: Player BBoxes count: 2
+  Player 1: Foot (758, 940.2979125976562), ClosestKP Idx 2, MiniPos (992345, 385407)
+  Player 2: Foot (1045, 315.7169189453125), ClosestKP Idx 12, MiniPos (108651, 1941)
+Frame 388: Player BBoxes count: 2
+  Player 1: Foot (730, 941.7968139648438), ClosestKP Idx 2, MiniPos (965325, 404121)
+  Player 2: Foot (1041, 316.0638427734375), ClosestKP Idx 12, MiniPos (104009, 2344)
+Frame 389: Player BBoxes count: 2
+  Player 1: Foot (712, 944.6408081054688), ClosestKP Idx 2, MiniPos (940903, 418877)
+  Player 2: Foot (1038, 316.3057556152344), ClosestKP Idx 12, MiniPos (100526, 2625)
+Frame 390: Player BBoxes count: 2
+  Player 1: Foot (708, 947.4246215820312), ClosestKP Idx 2, MiniPos (945414, 432040)
+  Player 2: Foot (1035, 318.47967529296875), ClosestKP Idx 12, MiniPos (97044, 5148)
+Frame 391: Player BBoxes count: 2
+  Player 1: Foot (680, 947.3607177734375), ClosestKP Idx 2, MiniPos (886744, 436680)
+  Player 2: Foot (1031, 320.91571044921875), ClosestKP Idx 12, MiniPos (92401, 7976)
+Frame 392: Player BBoxes count: 2
+  Player 1: Foot (663, 946.2689208984375), ClosestKP Idx 2, MiniPos (856676, 440114)
+  Player 2: Foot (1026, 322.5337829589844), ClosestKP Idx 12, MiniPos (86598, 9854)
+Frame 393: Player BBoxes count: 2
+  Player 1: Foot (651, 945.2953491210938), ClosestKP Idx 2, MiniPos (833652, 441404)
+  Player 2: Foot (1021, 323.75885009765625), ClosestKP Idx 12, MiniPos (80794, 11276)
+Frame 394: Player BBoxes count: 2
+  Player 1: Foot (641, 948.2840576171875), ClosestKP Idx 2, MiniPos (820089, 455459)
+  Player 2: Foot (1015, 325.3982849121094), ClosestKP Idx 12, MiniPos (73830, 13179)
+Frame 395: Player BBoxes count: 2
+  Player 1: Foot (633, 949.1885375976562), ClosestKP Idx 2, MiniPos (804305, 460482)
+  Player 2: Foot (1009, 326.3992919921875), ClosestKP Idx 12, MiniPos (66866, 14340)
+Frame 396: Player BBoxes count: 2
+  Player 1: Foot (627, 947.35107421875), ClosestKP Idx 2, MiniPos (794635, 459099)
+  Player 2: Foot (1004, 326.333740234375), ClosestKP Idx 12, MiniPos (61063, 14264)
+Frame 397: Player BBoxes count: 2
+  Player 1: Foot (621, 947.8057861328125), ClosestKP Idx 2, MiniPos (788784, 466036)
+  Player 2: Foot (998, 326.3131103515625), ClosestKP Idx 12, MiniPos (54098, 14240)
+Frame 398: Player BBoxes count: 2
+  Player 1: Foot (613, 946.8366088867188), ClosestKP Idx 2, MiniPos (777121, 469152)
+  Player 2: Foot (995, 325.8248596191406), ClosestKP Idx 12, MiniPos (50616, 13674)
+Frame 399: Player BBoxes count: 2
+  Player 1: Foot (602, 934.1552734375), ClosestKP Idx 2, MiniPos (753044, 438428)
+  Player 2: Foot (994, 325.6443786621094), ClosestKP Idx 12, MiniPos (49456, 13464)
+Frame 400: Player BBoxes count: 2
+  Player 1: Foot (591, 929.2182006835938), ClosestKP Idx 2, MiniPos (727450, 427484)
+  Player 2: Foot (993, 325.23480224609375), ClosestKP Idx 12, MiniPos (48295, 12989)
+Frame 401: Player BBoxes count: 2
+  Player 1: Foot (579, 923.2030029296875), ClosestKP Idx 2, MiniPos (696924, 412347)
+  Player 2: Foot (992, 325.3706970214844), ClosestKP Idx 12, MiniPos (47134, 13147)
+Frame 402: Player BBoxes count: 2
+  Player 1: Foot (571, 917.1900024414062), ClosestKP Idx 2, MiniPos (680306, 399035)
+  Player 2: Foot (992, 324.96612548828125), ClosestKP Idx 12, MiniPos (47134, 12677)
+Frame 403: Player BBoxes count: 2
+  Player 1: Foot (562, 912.34765625), ClosestKP Idx 2, MiniPos (655807, 385853)
+  Player 2: Foot (991, 324.9511413574219), ClosestKP Idx 12, MiniPos (45973, 12660)
+Frame 404: Player BBoxes count: 2
+  Player 1: Foot (552, 909.6471557617188), ClosestKP Idx 2, MiniPos (629140, 378836)
+  Player 2: Foot (991, 324.6543884277344), ClosestKP Idx 12, MiniPos (45973, 12315)
+Frame 405: Player BBoxes count: 2
+  Player 1: Foot (541, 909.78271484375), ClosestKP Idx 2, MiniPos (600287, 379913)
+  Player 2: Foot (989, 323.8089294433594), ClosestKP Idx 12, MiniPos (43652, 11334)
+Frame 406: Player BBoxes count: 2
+  Player 1: Foot (526, 909.8884887695312), ClosestKP Idx 2, MiniPos (561220, 381479)
+  Player 2: Foot (987, 322.70147705078125), ClosestKP Idx 12, MiniPos (41331, 10048)
+Frame 407: Player BBoxes count: 2
+  Player 1: Foot (510, 911.9984741210938), ClosestKP Idx 2, MiniPos (518464, 388056)
+  Player 2: Foot (985, 322.7214660644531), ClosestKP Idx 12, MiniPos (39009, 10072)
+Frame 408: Player BBoxes count: 2
+  Player 1: Foot (495, 918.1671752929688), ClosestKP Idx 2, MiniPos (479447, 406812)
+  Player 2: Foot (982, 322.8633117675781), ClosestKP Idx 12, MiniPos (35527, 10236)
+Frame 409: Player BBoxes count: 2
+  Player 1: Foot (479, 923.6781005859375), ClosestKP Idx 2, MiniPos (436600, 423231)
+  Player 2: Foot (979, 321.9881286621094), ClosestKP Idx 12, MiniPos (32045, 9220)
+Frame 410: Player BBoxes count: 2
+  Player 1: Foot (464, 927.7635498046875), ClosestKP Idx 2, MiniPos (396158, 435664)
+  Player 2: Foot (976, 321.5780029296875), ClosestKP Idx 12, MiniPos (28563, 8744)
+Frame 411: Player BBoxes count: 2
+  Player 1: Foot (447, 932.6708984375), ClosestKP Idx 2, MiniPos (349033, 449267)
+  Player 2: Foot (973, 321.99151611328125), ClosestKP Idx 12, MiniPos (25081, 9224)
+Frame 412: Player BBoxes count: 2
+  Player 1: Foot (427, 933.82763671875), ClosestKP Idx 2, MiniPos (293592, 452474)
+  Player 2: Foot (970, 321.88360595703125), ClosestKP Idx 12, MiniPos (21599, 9099)
+Frame 413: Player BBoxes count: 2
+  Player 1: Foot (396, 917.7243041992188), ClosestKP Idx 2, MiniPos (207658, 407834)
+  Player 2: Foot (967, 321.6080322265625), ClosestKP Idx 12, MiniPos (18117, 8779)
+Frame 414: Player BBoxes count: 2
+  Player 1: Foot (378, 910.9052124023438), ClosestKP Idx 2, MiniPos (157761, 388931)
+  Player 2: Foot (964, 321.8772888183594), ClosestKP Idx 12, MiniPos (14634, 9092)
+Frame 415: Player BBoxes count: 2
+  Player 1: Foot (370, 907.8643188476562), ClosestKP Idx 2, MiniPos (135584, 380502)
+  Player 2: Foot (960, 322.14697265625), ClosestKP Idx 12, MiniPos (9936, 9343)
+Frame 416: Player BBoxes count: 2
+  Player 1: Foot (362, 907.1605224609375), ClosestKP Idx 2, MiniPos (113408, 378551)
+  Player 2: Foot (956, 322.6395263671875), ClosestKP Idx 12, MiniPos (5323, 9906)
+Frame 417: Player BBoxes count: 2
+  Player 1: Foot (352, 907.0194702148438), ClosestKP Idx 2, MiniPos (85687, 378160)
+  Player 2: Foot (953, 324.69305419921875), ClosestKP Idx 12, MiniPos (1866, 12272)
+Frame 418: Player BBoxes count: 2
+  Player 1: Foot (346, 905.6905517578125), ClosestKP Idx 2, MiniPos (69055, 374476)
+  Player 2: Foot (949, 324.618408203125), ClosestKP Idx 12, MiniPos (-2742, 12186)
+Frame 419: Player BBoxes count: 2
+  Player 1: Foot (338, 904.8945922851562), ClosestKP Idx 2, MiniPos (46878, 372269)
+  Player 2: Foot (946, 326.2717590332031), ClosestKP Idx 12, MiniPos (-6199, 14091)
+Frame 420: Player BBoxes count: 2
+  Player 1: Foot (330, 904.1668090820312), ClosestKP Idx 2, MiniPos (24702, 370252)
+  Player 2: Foot (943, 327.2978820800781), ClosestKP Idx 12, MiniPos (-9656, 15274)
+Frame 421: Player BBoxes count: 2
+  Player 1: Foot (322, 904.962890625), ClosestKP Idx 2, MiniPos (2525, 372459)
+  Player 2: Foot (940, 327.5091247558594), ClosestKP Idx 12, MiniPos (-13113, 15517)
+Frame 422: Player BBoxes count: 2
+  Player 1: Foot (313, 905.053955078125), ClosestKP Idx 2, MiniPos (-22422, 372711)
+  Player 2: Foot (938, 328.1573486328125), ClosestKP Idx 12, MiniPos (-15418, 16264)
+Frame 423: Player BBoxes count: 2
+  Player 1: Foot (304, 906.119140625), ClosestKP Idx 2, MiniPos (-47371, 375664)
+  Player 2: Foot (937, 328.5987854003906), ClosestKP Idx 12, MiniPos (-16570, 16773)
+Frame 424: Player BBoxes count: 2
+  Player 1: Foot (295, 906.203125), ClosestKP Idx 2, MiniPos (-72319, 375897)
+  Player 2: Foot (935, 328.9190979003906), ClosestKP Idx 12, MiniPos (-18875, 17142)
+Frame 425: Player BBoxes count: 2
+  Player 1: Foot (286, 906.6077270507812), ClosestKP Idx 2, MiniPos (-97268, 377018)
+  Player 2: Foot (934, 329.212646484375), ClosestKP Idx 12, MiniPos (-20027, 17480)
+Frame 426: Player BBoxes count: 2
+  Player 1: Foot (276, 906.345458984375), ClosestKP Idx 2, MiniPos (-124989, 376291)
+  Player 2: Foot (933, 329.5754089355469), ClosestKP Idx 12, MiniPos (-21180, 17898)
+Frame 427: Player BBoxes count: 2
+  Player 1: Foot (266, 908.1687622070312), ClosestKP Idx 2, MiniPos (-152709, 381346)
+  Player 2: Foot (932, 329.7138366699219), ClosestKP Idx 12, MiniPos (-22332, 18058)
+Frame 428: Player BBoxes count: 2
+  Player 1: Foot (238, 948.413818359375), ClosestKP Idx 2, MiniPos (-230327, 492908)
+  Player 2: Foot (931, 329.1958312988281), ClosestKP Idx 12, MiniPos (-23484, 17461)
+Frame 429: Player BBoxes count: 2
+  Player 1: Foot (226, 961.6734008789062), ClosestKP Idx 2, MiniPos (-263592, 529664)
+  Player 2: Foot (930, 328.55718994140625), ClosestKP Idx 12, MiniPos (-24637, 16725)
+Frame 430: Player BBoxes count: 2
+  Player 1: Foot (219, 967.5317993164062), ClosestKP Idx 2, MiniPos (-282996, 545904)
+  Player 2: Foot (929, 328.8463134765625), ClosestKP Idx 12, MiniPos (-25789, 17058)
+Frame 431: Player BBoxes count: 2
+  Player 1: Foot (214, 970.1027221679688), ClosestKP Idx 2, MiniPos (-296857, 553031)
+  Player 2: Foot (927, 329.0902099609375), ClosestKP Idx 12, MiniPos (-28094, 17339)
+Frame 432: Player BBoxes count: 2
+  Player 1: Foot (211, 971.2164306640625), ClosestKP Idx 2, MiniPos (-305173, 556118)
+  Player 2: Foot (925, 330.5003967285156), ClosestKP Idx 12, MiniPos (-30398, 18964)
+Frame 433: Player BBoxes count: 2
+  Player 1: Foot (208, 971.6151123046875), ClosestKP Idx 2, MiniPos (-313489, 557223)
+  Player 2: Foot (924, 331.6534423828125), ClosestKP Idx 12, MiniPos (-31551, 20293)
+Frame 434: Player BBoxes count: 2
+  Player 1: Foot (206, 971.4954223632812), ClosestKP Idx 2, MiniPos (-319033, 556891)
+  Player 2: Foot (924, 332.41015625), ClosestKP Idx 12, MiniPos (-31551, 21165)
+Frame 435: Player BBoxes count: 2
+  Player 1: Foot (200, 971.853271484375), ClosestKP Idx 2, MiniPos (-335665, 557883)
+  Player 2: Foot (924, 331.96527099609375), ClosestKP Idx 12, MiniPos (-31551, 20652)
+Frame 436: Player BBoxes count: 2
+  Player 1: Foot (195, 982.04833984375), ClosestKP Idx 2, MiniPos (-349526, 586145)
+  Player 2: Foot (926, 331.05084228515625), ClosestKP Idx 12, MiniPos (-29246, 19598)
+Frame 437: Player BBoxes count: 2
+  Player 1: Foot (190, 988.6729125976562), ClosestKP Idx 2, MiniPos (-363386, 604508)
+  Player 2: Foot (927, 331.0656433105469), ClosestKP Idx 12, MiniPos (-28094, 19615)
+Frame 438: Player BBoxes count: 2
+  Player 1: Foot (184, 992.0585327148438), ClosestKP Idx 2, MiniPos (-380018, 613893)
+  Player 2: Foot (928, 331.73089599609375), ClosestKP Idx 12, MiniPos (-26941, 20382)
+Frame 439: Player BBoxes count: 2
+  Player 1: Foot (176, 994.599853515625), ClosestKP Idx 2, MiniPos (-402195, 620938)
+  Player 2: Foot (930, 333.1270751953125), ClosestKP Idx 12, MiniPos (-24637, 21991)
+Frame 440: Player BBoxes count: 2
+  Player 1: Foot (167, 996.31591796875), ClosestKP Idx 2, MiniPos (-427144, 625695)
+  Player 2: Foot (931, 334.2558898925781), ClosestKP Idx 12, MiniPos (-22939, 22792)
+Frame 441: Player BBoxes count: 2
+  Player 1: Foot (158, 997.6748657226562), ClosestKP Idx 2, MiniPos (-452092, 629462)
+  Player 2: Foot (935, 338.1562194824219), ClosestKP Idx 12, MiniPos (-17696, 26207)
+Frame 442: Player BBoxes count: 2
+  Player 1: Foot (150, 998.8162231445312), ClosestKP Idx 2, MiniPos (-474269, 632626)
+  Player 2: Foot (939, 338.3555908203125), ClosestKP Idx 12, MiniPos (-13006, 25826)
+Frame 443: Player BBoxes count: 2
+  Player 1: Foot (143, 1000.948974609375), ClosestKP Idx 2, MiniPos (-493673, 638538)
+  Player 2: Foot (944, 338.2555236816406), ClosestKP Idx 12, MiniPos (-7605, 25467)
+Frame 444: Player BBoxes count: 2
+  Player 1: Foot (136, 1001.5498046875), ClosestKP Idx 2, MiniPos (-513077, 640204)
+  Player 2: Foot (949, 338.0819091796875), ClosestKP Idx 12, MiniPos (-2291, 24932)
+Frame 445: Player BBoxes count: 2
+  Player 1: Foot (131, 1003.27783203125), ClosestKP Idx 2, MiniPos (-526938, 644994)
+  Player 2: Foot (954, 337.1897888183594), ClosestKP Idx 12, MiniPos (2872, 23642)
+Frame 446: Player BBoxes count: 2
+  Player 1: Foot (127, 1006.1911010742188), ClosestKP Idx 2, MiniPos (-538026, 653070)
+  Player 2: Foot (960, 337.0197448730469), ClosestKP Idx 12, MiniPos (8995, 23465)
+Frame 447: Player BBoxes count: 2
+  Player 1: Foot (124, 1009.4479370117188), ClosestKP Idx 2, MiniPos (-546342, 662098)
+  Player 2: Foot (965, 337.7115478515625), ClosestKP Idx 12, MiniPos (14097, 24171)
+Frame 448: Player BBoxes count: 2
+  Player 1: Foot (123, 1011.4895629882812), ClosestKP Idx 2, MiniPos (-549114, 667757)
+  Player 2: Foot (971, 337.8253173828125), ClosestKP Idx 12, MiniPos (20219, 24287)
+Frame 449: Player BBoxes count: 2
+  Player 1: Foot (122, 1012.9074096679688), ClosestKP Idx 2, MiniPos (-551886, 671688)
+  Player 2: Foot (976, 336.6599426269531), ClosestKP Idx 12, MiniPos (25321, 23098)
+Frame 450: Player BBoxes count: 2
+  Player 1: Foot (122, 1013.6669311523438), ClosestKP Idx 2, MiniPos (-551886, 673793)
+  Player 2: Foot (980, 336.4723205566406), ClosestKP Idx 12, MiniPos (29403, 22907)
+Frame 451: Player BBoxes count: 2
+  Player 1: Foot (122, 1013.7819213867188), ClosestKP Idx 2, MiniPos (-551886, 674112)
+  Player 2: Foot (984, 337.59039306640625), ClosestKP Idx 12, MiniPos (33485, 24048)
+Frame 452: Player BBoxes count: 2
+  Player 1: Foot (122, 1013.4521484375), ClosestKP Idx 2, MiniPos (-551886, 673198)
+  Player 2: Foot (988, 340.39739990234375), ClosestKP Idx 12, MiniPos (37566, 26912)
+Frame 453: Player BBoxes count: 2
+  Player 1: Foot (122, 1013.5919189453125), ClosestKP Idx 2, MiniPos (-551886, 673585)
+  Player 2: Foot (991, 340.7202453613281), ClosestKP Idx 12, MiniPos (40627, 27241)
+Frame 454: Player BBoxes count: 2
+  Player 1: Foot (121, 1013.6356811523438), ClosestKP Idx 2, MiniPos (-554658, 673707)
+  Player 2: Foot (995, 343.09521484375), ClosestKP Idx 12, MiniPos (44709, 29665)
+Frame 455: Player BBoxes count: 2
+  Player 1: Foot (120, 1013.3070678710938), ClosestKP Idx 2, MiniPos (-557430, 672796)
+  Player 2: Foot (996, 343.6503601074219), ClosestKP Idx 12, MiniPos (45729, 30231)
+Frame 456: Player BBoxes count: 2
+  Player 1: Foot (119, 1012.8541259765625), ClosestKP Idx 2, MiniPos (-560203, 671540)
+  Player 2: Foot (994, 346.0052185058594), ClosestKP Idx 12, MiniPos (43689, 32634)
+Frame 457: Player BBoxes count: 2
+  Player 1: Foot (118, 1012.7034301757812), ClosestKP Idx 2, MiniPos (-562975, 671122)
+  Player 2: Foot (999, 347.23712158203125), ClosestKP Idx 12, MiniPos (48791, 33891)
+Frame 458: Player BBoxes count: 2
+  Player 1: Foot (118, 1012.3023071289062), ClosestKP Idx 2, MiniPos (-562975, 670010)
+  Player 2: Foot (998, 347.2298889160156), ClosestKP Idx 12, MiniPos (47770, 33884)
+Frame 459: Player BBoxes count: 2
+  Player 1: Foot (117, 1011.9876098632812), ClosestKP Idx 2, MiniPos (-565747, 669138)
+  Player 2: Foot (1006, 347.4228820800781), ClosestKP Idx 12, MiniPos (55934, 34081)

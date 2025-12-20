@@ -292,6 +292,8 @@ class MiniCourt():
     
     def draw_points_on_mini_court(self,frames,postions, color=(0,255,0)):
         for frame_num, frame in enumerate(frames):
+            if frame_num >= len(postions):
+                continue
             for _, position in postions[frame_num].items():
                 x,y = position
                 x= int(x)

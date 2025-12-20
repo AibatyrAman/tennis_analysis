@@ -39,9 +39,10 @@ class CourtLineDetector:
             cv2.circle(image, (x, y), 5, (0, 0, 255), -1)
         return image
     
-    def draw_keypoints_on_video(self, video_frames, keypoints):
+    def draw_keypoints_on_video(self, video_frames):
         output_video_frames = []
         for frame in video_frames:
+            keypoints = self.predict(frame)
             frame = self.draw_keypoints(frame, keypoints)
             output_video_frames.append(frame)
         return output_video_frames

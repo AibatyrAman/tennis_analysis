@@ -2,6 +2,7 @@ import flet as ft
 import cv2
 import base64
 import os
+import sys
 import threading
 import traceback
 import subprocess
@@ -64,6 +65,35 @@ def main(page: ft.Page):
         on_click=lambda _: file_picker.pick_files(allow_multiple=False, allowed_extensions=["mp4", "avi", "mov"]),
     )
 
+    def open_file_picker(e):
+        print("Dosya seçme butonu tıklandı.")
+        
+        if sys.platform == "darwin":
+            try:
+                # Use osascript to open native macOS file dialog
+                cmd = """osascript -e 'get POSIX path of (choose file of type {"mp4"} with prompt "Analiz edilecek videoyu seçin")'"""
+                result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+                
+                if result.returncode == 0:
+                    selected_path = result.stdout.strip()
+                    if selected_path:
+                        print(f"Seçilen dosya (macOS): {selected_path}")
+                        path_field.value = selected_path
+                        path_field.update()
+                        handle_video_input(selected_path)
+                else:
+                    print("Dosya seçimi iptal edildi veya hata oluştu.")
+            except Exception as ex:
+                print(f"macOS file picker hatası: {ex}")
+                # Fallback to Flet picker if osascript fails
+                file_picker.pick_files(allow_multiple=False, allowed_extensions=["mp4"])
+        else:
+            try:
+                file_picker.pick_files(allow_multiple=False, allowed_extensions=["mp4"])
+                print("File picker dialog açılmalı.")
+            except Exception as ex:
+                print(f"File picker hatası: {ex}")
+
     upload_view = ft.Column(
         [
             ft.Text("Analiz Edilecek Maç Videosunu Buraya Yükleyin", size=28, weight=ft.FontWeight.BOLD),
@@ -74,7 +104,7 @@ def main(page: ft.Page):
                     ft.ElevatedButton(
                         "Dosyayı Seç", 
                         icon=ft.Icons.FOLDER_OPEN, 
-                        on_click=lambda _: file_picker.pick_files(allow_multiple=False),
+                        on_click=open_file_picker,
                         bgcolor=ft.Colors.LIGHT_BLUE_600,
                         color=ft.Colors.WHITE
                     ),
@@ -203,8 +233,8 @@ def main(page: ft.Page):
             loading_info.update()
             return
 
-        input_video_path = path
-        loading_info.value = f"Yükleniyor: {os.path.basename(path)}"
+        input_video_path = os.path.abspath(path)
+        loading_info.value = f"Yükleniyor: {os.path.basename(input_video_path)}"
         loading_info.update()
 
         try:
@@ -287,6 +317,10 @@ def main(page: ft.Page):
                 progress_callback=update_status
             )
             
+            if out_vid is None:
+                update_status("Analiz başarısız: Video oluşturulamadı veya aksiyon tespit edilemedi.")
+                return
+
             show_results(out_vid, out_mini, stats_df)
             
         except Exception as e:
@@ -323,7 +357,7 @@ def main(page: ft.Page):
         mini_video = ft.Video(
             playlist=[ft.VideoMedia(out_mini)],
             playlist_mode=ft.PlaylistMode.LOOP,
-            aspect_ratio=16/9,
+            aspect_ratio=350/600,
             autoplay=True,
             filter_quality=ft.FilterQuality.HIGH,
             muted=True
@@ -394,7 +428,7 @@ def main(page: ft.Page):
                         ft.Column(
                             [
                                 ft.Row([ft.Text("Ana Video", color=ft.Colors.RED_300, weight=ft.FontWeight.BOLD), btn_open_main], alignment=ft.MainAxisAlignment.SPACE_BETWEEN),
-                                ft.Container(content=main_video, width=700, border_radius=10, clip_behavior=ft.ClipBehavior.HARD_EDGE)
+                                ft.Container(content=main_video, width=700, height=394, border_radius=10, clip_behavior=ft.ClipBehavior.HARD_EDGE)
                             ],
                             alignment=ft.MainAxisAlignment.START
                         ),
@@ -402,7 +436,7 @@ def main(page: ft.Page):
                         ft.Column(
                             [
                                 ft.Row([ft.Text("Mini Kort", color=ft.Colors.RED_300, weight=ft.FontWeight.BOLD), btn_open_mini], alignment=ft.MainAxisAlignment.SPACE_BETWEEN),
-                                ft.Container(content=mini_video, width=350, border_radius=10, clip_behavior=ft.ClipBehavior.HARD_EDGE) # Smaller width
+                                ft.Container(content=mini_video, width=230, height=394, border_radius=10, clip_behavior=ft.ClipBehavior.HARD_EDGE) # Adjusted to match height
                             ],
                             alignment=ft.MainAxisAlignment.START
                         )

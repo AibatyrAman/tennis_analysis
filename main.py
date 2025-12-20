@@ -32,8 +32,10 @@ class TennisMatchProcessor:
             os.makedirs("output_videos")
             
         base_name = os.path.basename(input_video_path)
-        output_video_path = f"output_videos/output_{base_name}"
-        output_mini_court_video_path = f"output_videos/mini_court_{base_name}"
+        # Use absolute paths for output to ensure UI can find them
+        output_dir = os.path.abspath("output_videos")
+        output_video_path = os.path.join(output_dir, f"output_{base_name}")
+        output_mini_court_video_path = os.path.join(output_dir, f"mini_court_{base_name}")
 
         # 1. Read Video
         if progress_callback: progress_callback("Video okunuyor...")
@@ -69,14 +71,32 @@ class TennisMatchProcessor:
 
         # 6. Mini Court & Stats
         if progress_callback: progress_callback("İstatistikler hesaplanıyor...")
-        mini_court = MiniCourt(video_frames[0])
+        
+        # --- Standard Mini Court for Stats (Original Logic) ---
+        mini_court = MiniCourt(video_frames[0]) 
         ball_shot_frames = self.ball_tracker.get_ball_shot_frames(ball_detections)
         
+        # We use standard one for stats to keep logic consistent
         player_mini_court_detections, ball_mini_court_detections = mini_court.convert_bounding_boxes_to_mini_court_coordinates(
             player_detections, ball_detections, court_keypoints
         )
-
+        
         player_stats_data = self._calculate_stats(ball_shot_frames, ball_mini_court_detections, player_mini_court_detections, fps, mini_court)
+
+        # --- Perfect Mini Court for Display (New Logic) ---
+        # Create a dummy frame with specific dimensions (350 width, 600 height)
+        # drawing_rectangle_width=250, buffer=50 -> 250 + 50 + 50 = 350
+        # drawing_rectangle_height=500, buffer=50 -> 500 + 50 + 50 = 600 (approx)
+        mini_court_width = 350
+        mini_court_height = 600
+        dummy_frame = np.zeros((mini_court_height, mini_court_width, 3), dtype=np.uint8)
+        
+        perfect_mini_court = MiniCourt(dummy_frame)
+        
+        # Re-calculate positions for this specific view
+        p_mini_court_detections_view, b_mini_court_detections_view = perfect_mini_court.convert_bounding_boxes_to_mini_court_coordinates(
+            player_detections, ball_detections, court_keypoints
+        )
         
         # DataFrame Processing
         player_stats_data_df = pd.DataFrame(player_stats_data)
@@ -98,18 +118,21 @@ class TennisMatchProcessor:
         output_video_frames = video_frames.copy()
         output_video_frames = self.player_tracker.draw_bboxes(output_video_frames, player_detections)
         output_video_frames = self.ball_tracker.draw_bboxes(output_video_frames, ball_detections)
-        output_video_frames = self.court_line_detector.draw_keypoints_on_video(output_video_frames, court_keypoints)
+        output_video_frames = self.court_line_detector.draw_keypoints_on_video(output_video_frames)
         output_video_frames = self.pose_tracker.draw_bboxes(output_video_frames, pose_detections)
-        output_video_frames = mini_court.draw_mini_court(output_video_frames)
-        output_video_frames = mini_court.draw_points_on_mini_court(output_video_frames, player_mini_court_detections)
-        output_video_frames = mini_court.draw_points_on_mini_court(output_video_frames, ball_mini_court_detections, color=(0,255,255))
+        # output_video_frames = mini_court.draw_mini_court(output_video_frames)
+        # output_video_frames = mini_court.draw_points_on_mini_court(output_video_frames, player_mini_court_detections)
+        # output_video_frames = mini_court.draw_points_on_mini_court(output_video_frames, ball_mini_court_detections, color=(0,255,255))
         output_video_frames = draw_player_stats(output_video_frames, player_stats_data_df)
 
-        # 8. Mini Court Separate Output
-        mini_court_frames = [np.zeros_like(output_video_frames[0]) for _ in output_video_frames]
-        mini_court_frames = mini_court.draw_mini_court(mini_court_frames)
-        mini_court_frames = mini_court.draw_points_on_mini_court(mini_court_frames, player_mini_court_detections)
-        mini_court_frames = mini_court.draw_points_on_mini_court(mini_court_frames, ball_mini_court_detections, color=(0,255,255))
+        # 8. Mini Court Separate Output (Vertical / Perfect View)
+        # Use dummy_frame size as base
+        mini_court_frames = [np.zeros((mini_court_height, mini_court_width, 3), dtype=np.uint8) for _ in output_video_frames]
+        
+        # Draw on perfect frames
+        mini_court_frames = perfect_mini_court.draw_mini_court(mini_court_frames)
+        mini_court_frames = perfect_mini_court.draw_points_on_mini_court(mini_court_frames, p_mini_court_detections_view)
+        mini_court_frames = perfect_mini_court.draw_points_on_mini_court(mini_court_frames, b_mini_court_detections_view, color=(0,255,255))
 
         for i, frame in enumerate(output_video_frames):
             cv2.putText(frame, f"Frame: {i}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
@@ -155,6 +178,12 @@ class TennisMatchProcessor:
             start_frame = ball_shot_frames[ball_shot_ind]
             end_frame = ball_shot_frames[ball_shot_ind+1]
             ball_shot_time_in_seconds = (end_frame-start_frame)/ fps 
+
+            if start_frame >= len(ball_mini_court_detections) or end_frame >= len(ball_mini_court_detections):
+                continue
+            
+            if 1 not in ball_mini_court_detections[start_frame] or 1 not in ball_mini_court_detections[end_frame]:
+                continue
 
             distance_covered_by_ball_pixels = measure_distance(ball_mini_court_detections[start_frame][1],
                                                             ball_mini_court_detections[end_frame][1])
@@ -208,7 +237,7 @@ class TennisMatchProcessor:
 
 def main():
     processor = TennisMatchProcessor()
-    input_video_path = "input_videos/input_video.mp4"
+    input_video_path = "input_videos/ol.mp4"
     
     print("Video okunuyor...")
     frames, _ = read_video(input_video_path)
