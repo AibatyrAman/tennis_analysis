@@ -1,0 +1,24 @@
+# Query: keypoints_model_50.pth
+# ContextLines: 1
+
+4 results - 4 files
+
+main.py:
+  15  class TennisMatchProcessor:
+  16:     def __init__(self, model_path_yolo='models/yolov8x.pt', model_path_ball='models/yeni_model.pt', model_path_court='models/key_point_model.pt', model_path_pose='models/yolo11x-pose.pt'):
+  17          self.player_tracker = PlayerTracker(model_path=model_path_yolo)
+
+test_court_detection.py:
+  116      else:
+  117:         model_path = "models/key_point_model.pt"
+  118  
+
+tests/test_auto_court_filtering.py:
+  10  
+  11: def test_auto_court_filtering(input_path, model_path="models/key_point_model.pt"):
+  12      print(f"--- OTOMATİK AKSİYON FİLTRELEME TESTİ (KORT BAZLI) ---")
+
+tests/test_court.py:
+   9  
+  10: def test_court_detection(input_path, model_path="models/key_point_model.pt"):
+  11      print(f"--- KORT TESPİT TESTİ BAŞLIYOR ---")

@@ -67,3 +67,22 @@ class ActionFilter:
 
         print(f"Filtering complete. Kept {len(filtered_frames)}/{original_count} frames.")
         return filtered_frames
+        
+    def get_filtered_indices(self, frames_generator, total_frames=None):
+        """
+        Iterates through frames from a generator and returns a boolean list or set of indices 
+        that passed the filter. Memory efficient.
+        """
+        print("Analyzing frames for action filtering...")
+        valid_indices = set()
+        
+        for i, frame in enumerate(frames_generator):
+            score = self.calculate_similarity(frame)
+            if score > self.similarity_threshold:
+                valid_indices.add(i)
+                
+            if i % 200 == 0:
+                prog = f"{i}" if total_frames is None else f"{i}/{total_frames}"
+                print(f"Action Filter: Frame {prog}, Similarity: {score:.2f}")
+                
+        return valid_indices

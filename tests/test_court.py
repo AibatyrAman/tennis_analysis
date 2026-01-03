@@ -7,7 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from court_line_detector import CourtLineDetector
 
-def test_court_detection(input_path, model_path="models/keypoints_model_50.pth"):
+def test_court_detection(input_path, model_path="models/keypoints_model_50.pt"):
     print(f"--- KORT TESPİT TESTİ BAŞLIYOR ---")
     print(f"Girdi: {input_path}")
     print(f"Model: {model_path}")

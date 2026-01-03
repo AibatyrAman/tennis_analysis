@@ -26,6 +26,31 @@ class MiniCourt():
         self.set_court_drawing_key_points()
         self.set_court_lines()
 
+    def get_mini_court_coordinates_from_point(self, point, court_keypoints):
+        """
+        Transforms a point (x, y) from screen coordinates to mini-court coordinates
+        using Homography based on the 14 detected court keypoints.
+        """
+        # Source points: Detected court keypoints (14 points)
+        src_points = np.array(court_keypoints).reshape(-1, 2)
+        
+        # Destination points: Pre-defined mini-court keypoints (14 points)
+        # We use strict indices 0-27 (first 14 pairs) which correspond to the court corners/lines
+        dst_points = np.array(self.drawing_key_points[:28]).reshape(-1, 2)
+        
+        # Compute Homography Matrix
+        # Using RANSAC to be robust against potentially noisy keypoints
+        H, _ = cv2.findHomography(src_points, dst_points, cv2.RANSAC)
+        
+        if H is None:
+            return None
+            
+        # Transform point
+        point_array = np.array([[point]], dtype=np.float32)
+        transformed_points = cv2.perspectiveTransform(point_array, H)
+        
+        return list(transformed_points[0][0])
+
 
     def convert_meters_to_pixels(self, meters):
         return convert_meters_to_pixel_distance(meters,
