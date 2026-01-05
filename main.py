@@ -363,9 +363,34 @@ class TennisMatchProcessor:
             
             # Draw Heatmap (Accumulated Bounces)
             # Use stored detailed events
-            for event in winning_bounce_positions:
+            # Draw Heatmap (Accumulated Bounces)
+            # Use stored detailed events
+            for idx, event in enumerate(winning_bounce_positions):
                 pt = event['pos']
-                cv2.circle(mini_frame, (int(pt[0]), int(pt[1])), 7, (0, 0, 255), -1)
+                
+                # Fading Logic:
+                # Calculate intensity based on index (0 to 1)
+                # Newer events (higher index) -> Brighter red
+                # Older events (lower index) -> Darker red
+                
+                total_events = len(winning_bounce_positions)
+                # Prevent division by zero
+                ratio = (idx + 1) / total_events if total_events > 0 else 1
+                
+                # Min brightness 100, Max 255
+                intensity = int(100 + (155 * ratio))
+                
+                # Color (BGR): Blue=0, Green=0, Red=intensity
+                color = (0, 0, intensity)
+                
+                # Make the very last one distinct (e.g. larger or different color) if desired
+                # But user asked for "shades".
+                radius = 7
+                if idx == total_events - 1:
+                    radius = 10 # Highlight last one slightly bigger
+                    color = (0, 0, 255) # Pure bright red
+                
+                cv2.circle(mini_frame, (int(pt[0]), int(pt[1])), radius, color, -1)
             
             if i < len(p_mini_court_detections_view):
                 mini_frame = perfect_mini_court.draw_points_on_mini_court([mini_frame], [p_mini_court_detections_view[i]])[0]

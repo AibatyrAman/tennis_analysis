@@ -14,6 +14,8 @@ def main(page: ft.Page):
     page.theme_mode = ft.ThemeMode.DARK
     page.padding = 30
     page.scroll = ft.ScrollMode.AUTO 
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+    page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
     # --- Global Variables ---
     input_video_path = None
@@ -123,7 +125,7 @@ def main(page: ft.Page):
         alignment=ft.MainAxisAlignment.CENTER
     )
 
-    # 2. Corner Selection Components
+    # 2. Scoreboard Selection View
     frame_image = ft.Image(src_base64="", width=640, height=360, fit=ft.ImageFit.CONTAIN)
     
     canvas = cv.Canvas(
@@ -132,64 +134,39 @@ def main(page: ft.Page):
         height=360,
     )
 
-    instruction_text = ft.Text("Kortun 4 köşesine sırasıyla tıklayın (Sol-Üst, Sağ-Üst, Sağ-Alt, Sol-Alt)", size=16)
+    instruction_text = ft.Text("İsteğe Bağlı: Skor tablosunu seçmek için 'Skor Tablosu Seç' butonuna basın veya direkt başlatın.", size=16)
     
-    def reset_corners(e=None):
-        corners.clear()
+    def reset_selection(e=None):
         scoreboard_points.clear()
         nonlocal scoreboard_roi, selection_mode
         scoreboard_roi = None
-        selection_mode = "CORNER"
+        selection_mode = "NONE"
         
         canvas.shapes.clear()
         canvas.update()
-        start_btn.disabled = True
-        scoreboard_btn.disabled = True
-        instruction_text.value = "Kortun 4 köşesine sırasıyla tıklayın..."
+        instruction_text.value = "Seçim sıfırlandı. Analizi başlatabilir veya skor tablosu seçebilirsiniz."
         page.update()
 
-
-
-    start_btn = ft.ElevatedButton("Analizi Başlat", disabled=True, on_click=lambda _: start_analysis_thread(), bgcolor=ft.Colors.GREEN_700, color=ft.Colors.WHITE)
-    reset_btn = ft.ElevatedButton("Sıfırla", on_click=reset_corners, bgcolor=ft.Colors.RED_700, color=ft.Colors.WHITE)
-
+    start_btn = ft.ElevatedButton("Analizi Başlat", on_click=lambda _: start_analysis_thread(), bgcolor=ft.Colors.GREEN_700, color=ft.Colors.WHITE)
+    reset_btn = ft.ElevatedButton("Seçimi Sıfırla", on_click=reset_selection, bgcolor=ft.Colors.RED_700, color=ft.Colors.WHITE)
+    
     # Selection State
-    selection_mode = "CORNER" # or "SCOREBOARD"
+    selection_mode = "NONE" 
     scoreboard_points = []
     scoreboard_roi = None # (x1, y1, x2, y2)
 
     def on_canvas_tap(e: ft.TapEvent):
+        nonlocal selection_mode
         x, y = e.local_x, e.local_y
 
-        if selection_mode == "CORNER":
-            if len(corners) >= 4: return
-            corners.append((x, y))
-            
-            # Draw dot
-            canvas.shapes.append(cv.Circle(x, y, 5, ft.Paint(color=ft.Colors.RED, style=ft.PaintingStyle.FILL)))
-            
-            # Draw lines
-            if len(corners) > 1:
-                p1 = corners[-2]
-                p2 = corners[-1]
-                canvas.shapes.append(cv.Line(p1[0], p1[1], p2[0], p2[1], ft.Paint(color=ft.Colors.GREEN, stroke_width=2)))
-            
-            if len(corners) == 4:
-                p1 = corners[-1]
-                p2 = corners[0]
-                canvas.shapes.append(cv.Line(p1[0], p1[1], p2[0], p2[1], ft.Paint(color=ft.Colors.GREEN, stroke_width=2)))
-                instruction_text.value = "Köşeler tamamlandı! Şimdi Skor Tablosunu seçin veya Analizi başlatın."
-                scoreboard_btn.disabled = False
-                start_btn.disabled = False
-        
-        elif selection_mode == "SCOREBOARD":
+        if selection_mode == "SCOREBOARD":
             if len(scoreboard_points) >= 2: 
-                # Reset if re-selecting
                 scoreboard_points.clear()
-                # Remove last rectangle if exists... tricky with current list append structure.
-                # For simplicity, just append new ones. 
-                pass
-
+                # Clear previous rectangle logic if needed, but for now we just draw new ones
+                # Ideally we clear shapes but keep the image... 
+                # For simplicity, let's just clear shapes if we restart selection
+                canvas.shapes = [s for s in canvas.shapes if not isinstance(s, cv.Rect) and not isinstance(s, cv.Circle)]
+                
             scoreboard_points.append((x, y))
             canvas.shapes.append(cv.Circle(x, y, 5, ft.Paint(color=ft.Colors.YELLOW, style=ft.PaintingStyle.FILL)))
 
@@ -204,21 +181,25 @@ def main(page: ft.Page):
                 scoreboard_roi = (x1, y1, x2, y2)
                 
                 canvas.shapes.append(cv.Rect(x1, y1, x2-x1, y2-y1, ft.Paint(color=ft.Colors.YELLOW, stroke_width=2, style=ft.PaintingStyle.STROKE)))
-                instruction_text.value = "Skor tablosu seçildi! Analizi başlatabilirsiniz."
+                instruction_text.value = "Skor tablosu seçildi! Analizi başlatabilir veya seçimi sıfırlayabilirsiniz."
+                selection_mode = "NONE" # Reset mode after selection
                 
         canvas.update()
-        start_btn.update()
         instruction_text.update()
-        scoreboard_btn.update()
 
     def set_scoreboard_mode(e):
         nonlocal selection_mode
         selection_mode = "SCOREBOARD"
         instruction_text.value = "Skor tablosunun Sol-Üst ve Sağ-Alt köşesine tıklayın."
         scoreboard_points.clear()
+        # Clear existing calc
+        nonlocal scoreboard_roi
+        scoreboard_roi = None
+        canvas.shapes.clear() # Clear old drawings
+        canvas.update()
         instruction_text.update()
         
-    scoreboard_btn = ft.ElevatedButton("Skor Tablosu Seç", disabled=True, on_click=set_scoreboard_mode, bgcolor=ft.Colors.ORANGE_700, color=ft.Colors.WHITE)
+    scoreboard_btn = ft.ElevatedButton("Skor Tablosu Seç", on_click=set_scoreboard_mode, bgcolor=ft.Colors.ORANGE_700, color=ft.Colors.WHITE)
 
     selection_stack = ft.Stack(
         [
@@ -234,7 +215,7 @@ def main(page: ft.Page):
 
     selection_view = ft.Column(
         [
-            ft.Text("Kortun Köşelerini Seç", size=28, weight=ft.FontWeight.BOLD),
+            ft.Text("Hazırlık Aşaması", size=28, weight=ft.FontWeight.BOLD),
             ft.Container(selection_stack, border=ft.border.all(1, ft.Colors.GREY_700), border_radius=8),
             instruction_text,
             ft.Row([reset_btn, scoreboard_btn, start_btn], alignment=ft.MainAxisAlignment.CENTER, spacing=20)
@@ -246,7 +227,7 @@ def main(page: ft.Page):
 
     # 3. Processing View
     progress_bar = ft.ProgressBar(width=400, color=ft.Colors.BLUE)
-    status_text = ft.Text("İşleniyor...", size=16)
+    status_text = ft.Text("İşleniyor...", size=16, text_align=ft.TextAlign.CENTER)
     processing_view = ft.Column(
         [
             ft.Text("Analiz Yapılıyor...", size=24, weight=ft.FontWeight.BOLD),
@@ -328,8 +309,7 @@ def main(page: ft.Page):
     def run_analysis():
         try:
             # Scale corners back to original video? 
-            # Original video resolution might not be 640x360.
-            # We need to know original size to scale corners.
+            # NO MANUAL CORNERS - Using Auto Detection
             
             cap = cv2.VideoCapture(input_video_path)
             width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
@@ -339,26 +319,6 @@ def main(page: ft.Page):
             # Canvas is 640x360.
             scale_x = width / 640
             scale_y = height / 360
-            
-            real_corners = []
-            for (cx, cy) in corners:
-                real_corners.append((int(cx * scale_x), int(cy * scale_y))) 
-                # Note: utils expects flat list? No, ActionFilter and others expect specific format.
-                # select_corners_manually returns list of points.
-                # Let's check main.py expected format. It expects whatever select_corners_manually returns.
-                # select_corners returns list of [x, y].
-            
-            # Format corners as [x,y, x,y...] or list of tuples? 
-            # Let's re-read main.py logic if needed. 
-            # select_corners_manually returns simple list of coords.
-            # Actually Main code expects a list of points (x, y). 
-            # But flattening might be needed if downstream uses it that way. 
-            # Looking at previous app.py, it passed `corners` list directly. 
-            # Corner list was list of tuples or lists. 
-            
-            # Let's pass simple flat list if needed? 
-            # No, main.py -> process_match -> ActionFilter uses `roi_corners`.
-            # ActionFilter expects 4 points.
             
             real_scoreboard_roi = None
             if scoreboard_roi:
@@ -370,7 +330,7 @@ def main(page: ft.Page):
 
             out_vid, out_mini, stats_df, score_events = processor.process_match(
                 input_video_path, 
-                corners=real_corners, 
+                corners=None, # Auto-detect
                 scoreboard_roi=real_scoreboard_roi,
                 progress_callback=update_status
             )
@@ -474,18 +434,33 @@ def main(page: ft.Page):
                 timestamp = event['timestamp']
                 score = event.get('score', '')
                 
-                # Check bounds
+                # Check bounds for drawing
                 if not (0 <= pos[0] <= interactive_width and 0 <= pos[1] <= interactive_height):
                     continue
+                
+                # Determine color based on "In/Out" logic
+                # Court boundaries: (court_start_x, court_start_y) to (court_end_x, court_end_y)
+                
+                # Check Net Zone (Invalid shots hitting the net / near net)
+                # net_y is calculated above in this scope
+                net_zone_buffer = 20 # pixels +/- from net line
+                is_net = (net_y - net_zone_buffer <= pos[1] <= net_y + net_zone_buffer)
+
+                is_inside = (court_start_x <= pos[0] <= court_end_x) and \
+                            (court_start_y <= pos[1] <= court_end_y) and \
+                            not is_net
+                
+                # Color request: Inside = Light Blue, Outside or Net = Red
+                point_color = ft.Colors.LIGHT_BLUE_ACCENT if is_inside else ft.Colors.RED
                 
                 # Create a clickable dot
                 dot = ft.Container(
                     width=14, height=14,
                     border_radius=7,
-                    bgcolor=ft.Colors.RED,
+                    bgcolor=point_color,
                     left=pos[0]-7, 
                     top=pos[1]-7,
-                    tooltip=f"Score: {score} @ {timestamp:.1f}s",
+                    tooltip=f"Score: {score} @ {timestamp:.1f}s ({'IN' if is_inside else 'OUT'})",
                     on_click=lambda _, t=timestamp: self.on_point_click(t)
                 )
                 stack_controls.append(dot)
@@ -564,39 +539,83 @@ def main(page: ft.Page):
             )
 
         # Score History (Sayı Analizi)
-        # We need to extract score list. bounce_events has score info too.
-        # But main.py returns 'winning_bounce_positions' which IS bounce_events.
-        # Does it contain ALL score changes? 
-        # main.py logic: "if has_changed: score_events.append(...) ... if candidates: winning_bounce_positions.append(...)"
-        # So 'winning_bounce_positions' only has scores WITH bounces.
-        # The user wants "Sayı Analizi". 
-        # Ideally we should pass BOTH score_events (all changes) AND bounce_events (heatmap).
-        # Currently process_match returns: out_vid, out_mini, stats_df, winning_bounce_positions
-        # So we only have the subset. That's probably fine for "Sayı Analizi" of *winners* or active points.
+        score_list_view = ft.ListView(height=300, spacing=10, padding=10)
         
-        score_list_view = ft.ListView(height=200, spacing=10, padding=10)
         if bounce_events:
-            score_list_view.controls.append(ft.Text("Skor Geçmişi (Tıkla ve Git)", weight=ft.FontWeight.BOLD))
+            score_list_view.controls.append(ft.Container(
+                content=ft.Text("Maç Olayları & Skor Değişimleri", size=14, color=ft.Colors.GREY_400, weight=ft.FontWeight.BOLD),
+                padding=ft.padding.only(bottom=10)
+            ))
+            
             for event in bounce_events:
                 timestamp = event['timestamp']
-                score = event.get('score', 'N/A')
+                score_text = event.get('score', 'N/A')
                 
-                btn = ft.TextButton(
-                    f"Skor: {score}  (@ {int(timestamp)}s)",
-                    on_click=lambda _, t=timestamp: jump_to_time(t)
+                # Clean up score text if it's too messy (basic heuristic)
+                display_score = score_text if len(score_text) < 50 else score_text[:47] + "..."
+                
+                # Card Design
+                card = ft.Container(
+                    content=ft.Row(
+                        [
+                            # Left: Score Text
+                            ft.Container(
+                                content=ft.Column(
+                                    [
+                                        ft.Text("SKOR / OLAY", size=10, color=ft.Colors.GREY_500, weight=ft.FontWeight.BOLD),
+                                        ft.Text(display_score, size=16, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE, overflow=ft.TextOverflow.ELLIPSIS),
+                                    ],
+                                    spacing=2
+                                ),
+                                expand=True
+                            ),
+                            # Right: Timestamp Badge
+                            ft.Container(
+                                content=ft.Row(
+                                    [
+                                        ft.Icon(ft.Icons.ACCESS_TIME, size=12, color=ft.Colors.WHITE),
+                                        ft.Text(f"{int(timestamp)}s", color=ft.Colors.WHITE, weight=ft.FontWeight.BOLD, size=12),
+                                    ],
+                                    alignment=ft.MainAxisAlignment.CENTER,
+                                    spacing=4
+                                ),
+                                bgcolor=ft.Colors.BLUE_800,
+                                padding=ft.padding.symmetric(horizontal=8, vertical=4),
+                                border_radius=12,
+                            )
+                        ],
+                        alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
+                        vertical_alignment=ft.CrossAxisAlignment.CENTER
+                    ),
+                    padding=15,
+                    bgcolor=ft.Colors.BLACK54, # Darker card background
+                    border=ft.border.all(1, ft.Colors.WHITE10),
+                    border_radius=8,
+                    ink=True,
+                    on_click=lambda _, t=timestamp: jump_to_time(t),
+                    tooltip=f"Anına git: {int(timestamp)}s\nTam Metin: {score_text}"
                 )
-                score_list_view.controls.append(btn)
+                score_list_view.controls.append(card)
         else:
-            score_list_view.controls.append(ft.Text("Skor verisi yok."))
+            score_list_view.controls.append(
+                ft.Container(
+                    content=ft.Column([
+                        ft.Icon(ft.Icons.INFO_OUTLINE, color=ft.Colors.GREY_500),
+                        ft.Text("Henüz skor verisi kaydedilmedi.", color=ft.Colors.GREY_500)
+                    ], alignment=ft.MainAxisAlignment.CENTER),
+                    alignment=ft.alignment.center,
+                    padding=20
+                )
+            )
             
         score_container = ft.Container(
             content=ft.Column([
-                ft.Text("Maç Akışı", size=20, weight=ft.FontWeight.BOLD),
-                ft.Container(content=score_list_view, border=ft.border.all(1, ft.Colors.GREY_700), border_radius=5, height=250)
+                ft.Row([ft.Icon(ft.Icons.TIMELINE, color=ft.Colors.BLUE_200), ft.Text("Maç Akışı", size=20, weight=ft.FontWeight.BOLD)]),
+                ft.Container(content=score_list_view, border=ft.border.all(1, ft.Colors.GREY_800), border_radius=10, height=320, bgcolor=ft.Colors.BLACK26)
             ]),
             padding=20,
             bgcolor=ft.Colors.BLUE_GREY_900,
-            border_radius=10,
+            border_radius=15,
             expand=True
         )
 
@@ -610,7 +629,7 @@ def main(page: ft.Page):
             interactive_content = ft.Text("Isı haritası verisi bulunamadı.")
 
         mini_court_tabs = ft.Tabs(
-            selected_index=0,
+            selected_index=1, # Default to Video Tab
             animation_duration=300,
             tabs=[
                 ft.Tab(
@@ -625,8 +644,9 @@ def main(page: ft.Page):
                     text="Video Tekrarı",
                     content=ft.Container(
                         content=mini_video,
-                        width=230,
-                        height=394,
+                        # Match mini video size inside tab
+                        width=320, 
+                        height=580, 
                         alignment=ft.alignment.center
                     ),
                 ),
@@ -637,7 +657,7 @@ def main(page: ft.Page):
         right_column = ft.Container(
             content=mini_court_tabs,
             width=360,
-            height=650, # Enough space for tabs + content
+            height=650, 
             border=ft.border.all(1, ft.Colors.GREY_800),
             border_radius=10,
             padding=5
@@ -647,13 +667,13 @@ def main(page: ft.Page):
             [
                 ft.Row(
                     [
-                        # Left Column: Main Video
+                        # Left Column: Main Video - Increased Size
                         ft.Column(
                             [
                                 ft.Row([ft.Text("Ana Video", color=ft.Colors.RED_300, weight=ft.FontWeight.BOLD), 
                                         ft.ElevatedButton("PC'de Aç", icon=ft.Icons.OPEN_IN_NEW, on_click=lambda _: open_externally(out_vid))
-                                       ], alignment=ft.MainAxisAlignment.SPACE_BETWEEN, width=700),
-                                ft.Container(content=main_video, width=700, height=394, border_radius=10, clip_behavior=ft.ClipBehavior.HARD_EDGE)
+                                       ], alignment=ft.MainAxisAlignment.SPACE_BETWEEN, width=1000),
+                                ft.Container(content=main_video, width=1000, height=650, border_radius=10, clip_behavior=ft.ClipBehavior.HARD_EDGE, bgcolor=ft.Colors.BLACK)
                             ],
                             alignment=ft.MainAxisAlignment.START
                         ),
