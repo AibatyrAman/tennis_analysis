@@ -5,6 +5,11 @@ Bu proje, tenis maç videolarından kort çizgilerini, oyuncuları, topu ve hare
 Amaç, tenis videolarından yalnızca görsel verileri değil; aynı zamanda maçın akışını, topun hareketini, oyuncu konumlarını ve temel istatistikleri de anlamlı bir biçimde çıkarmaktır.
 
 ---
+![Topun Sektiği Noktalar](readme_videos/video_tekrari.gif)
+
+![İnteraktif Bir Şekilde Topun Sektiği Noktalar Ve Sayı Alınan Noktalar](readme_videos/interaktif.gif)
+
+---
 
 ## Proje Hakkında
 
