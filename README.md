@@ -148,8 +148,8 @@ output_videos/
 
 README içinde demo veya tanıtım amaçlı kullanılabilecek videolar şunlardır:
 
-- [Topun Sektiği Noktalar](readme_videos/video_tekrari.mov)
-- [İnteraktif Bir Şekilde Topun Sektiği Noktalar Ve Sayı Alınan Noktalar](readme_videos/interaktif.mov)
+- [Topun Sektiği Noktalar](readme_videos/video_tekrari.gif)
+- [İnteraktif Bir Şekilde Topun Sektiği Noktalar Ve Sayı Alınan Noktalar](readme_videos/interaktif.gif)
 
 Bu videolar, sistemin kullanıcı arayüzünden nasıl çalıştığını ve analiz çıktılarının nasıl üretildiğini göstermek için kullanılabilir.
 
